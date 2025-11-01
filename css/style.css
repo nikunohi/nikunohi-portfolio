@@ -33,6 +33,7 @@ body {
    font-size: 1.6rem;
    /* font-size 1.6rem is now the same as 16px */
    line-height: 1.6;
+   padding-bottom: 100px;
 }
 
 body,
@@ -82,7 +83,7 @@ body.scroll-enabled {
    position: fixed;
    bottom: 2vh;
    right: 1vw;
-
+   z-index: 1;
 }
 
 
@@ -178,10 +179,11 @@ body.scroll-enabled {
 
 
 @media screen and (max-width: 930px) {
-   .navbar {
-      left: 10vw;
+   /* .nav-list {
+      left: 50vw;
+      max-width: 100vw;
       bottom: 2vh;
-   }
+   } */
 
 
 }
@@ -193,7 +195,7 @@ body.scroll-enabled {
    justify-content: space-between;
    width: 100vw;
    align-items: start;
-   z-index: 1;
+   z-index: 2;
    border-bottom: 1px solid black;
    background-color: white;
 }
@@ -280,7 +282,7 @@ a {
 
 @media screen and (max-width: 450px) {
    .project-wrapper {
-      top: 60vh;
+      top: 20vh;
       padding-bottom: 150px;
    }
 
