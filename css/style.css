@@ -261,8 +261,8 @@ a {
    font-family: "futura-100", sans-serif;
    font-weight: 400;
    font-style: normal;
-   font-size: 4rem;
-   line-height: 4rem;
+   font-size: 3rem;
+   line-height: 3.6rem;
 
 }
 
@@ -352,7 +352,7 @@ a {
 
    /* z-index: 0; */
    scrollbar-width: none;
-    border-bottom: 1px solid black;
+   border-bottom: 1px solid black;
 }
 
 
@@ -377,7 +377,18 @@ body::-webkit-scrollbar {
 
 
 
+.design-statement-wrapper {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   top: 20vh;
+   margin-top: 20px;
+   /* flex-direction: column; */
+   /* justify-content: center; */
+   align-items: flex-start;
+   /* height: 75vh; */
 
+}
 
 
 
@@ -426,11 +437,12 @@ body::-webkit-scrollbar {
 }
 
 .title .design-statement {
-   font-family: "futura-100", sans-serif;
-   font-weight: 300;
+   padding-top: 15px;
+   font-family: source-serif-pro, serif;
+   font-weight: 400;
    font-style: normal;
-   font-size: 1.7rem;
-   line-height: 3rem;
+   font-size: 1.5rem;
+   line-height: 2rem;
    text-align: justify;
 
 
@@ -468,12 +480,16 @@ body::-webkit-scrollbar {
 
    .title h3 {
       font-size: 2rem;
-      line-height: 2rem;
+      line-height: 2.4rem;
    }
 
    .title h2 {
       font-size: 1.5rem;
       line-height: 2rem;
+   }
+
+   .title p {
+      font-size: 1.2rem;
    }
 
 
