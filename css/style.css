@@ -178,7 +178,7 @@ body.scroll-enabled {
 
 
 .info-wrapper {
-   position: fixed;
+   position: relative;
    top: 20px;
    display: flex;
    justify-content: space-between;
@@ -321,13 +321,17 @@ a {
    /* overflow:visible; */
 }
 
+.test {
+   position: relative;
+}
+
 .image-row {
    display: flex;
    align-items: center;
 
    height: 100vh;
-   height: 100svh;
-   height: 100dvh;
+   /* height: 100svh;
+   height: 100dvh; */
    overflow-x: auto;
 
    z-index: -1;
@@ -477,19 +481,6 @@ body::-webkit-scrollbar {
    .project-wrapper {
       top: 20vh;
       padding-bottom: 150px;
-   }
-
-   .image-row {
-      display: flex;
-      align-items: center;
-      padding-top: 100px;
-      height: 100vh;
-      height: 100svh;
-      height: 100dvh;
-      overflow-x: auto;
-
-      z-index: -1;
-      scrollbar-width: none;
    }
 
    .info-container,
