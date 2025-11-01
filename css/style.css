@@ -177,17 +177,6 @@ body.scroll-enabled {
 }
 
 
-
-@media screen and (max-width: 930px) {
-   /* .nav-list {
-      left: 50vw;
-      max-width: 100vw;
-      bottom: 2vh;
-   } */
-
-
-}
-
 .info-wrapper {
    position: fixed;
    top: 20px;
@@ -260,50 +249,27 @@ a {
    font-style: normal;
    font-size: 4rem;
    line-height: 4rem;
-   
-}
-
-@media screen and (min-width: 451px) and (max-width: 1300px) {
-
-
-   .title h2 {
-      font-size: 2.25rem;
-      line-height: 3rem;
-   }
-
-
-   .description h2 {
-      font-size: 1rem;
-      line-height: 1.2rem;
-   }
-}
-
-@media screen and (min-width: 451px) and (max-width: 950px) {
-   .project-wrapper {
-      top: 20vh;
-   }
-
-   .title h3 {
-      font-size: 2rem;
-      line-height: 2rem;
-   }
 
 }
 
-@media screen and (max-width: 450px) {
-   .project-wrapper {
-      top: 20vh;
-      padding-bottom: 150px;
-   }
+
+
+
+.title h2 {
+   font-family: "futura-100", sans-serif;
+   font-weight: 600;
+   font-style: normal;
 
 }
 
-.title h2,
 .description h2 {
    font-family: "futura-100", sans-serif;
    font-weight: 600;
    font-style: normal;
+   font-size: 2rem;
+   line-height: 3rem;
 }
+
 
 .title p {
    font-family: "source-serif-pro", serif;
@@ -318,10 +284,6 @@ a {
    font-style: normal;
 }
 
-.description h2 {
-   font-size: 2rem;
-   line-height: 3rem;
-}
 
 
 
@@ -385,6 +347,10 @@ a {
    display: none;
 }
 
+body::-webkit-scrollbar {
+   display: none;
+}
+
 
 
 
@@ -424,7 +390,7 @@ a {
    outline: 1px solid black;
    z-index: 1;
    padding: 5px;
-   margin: 150px;
+   margin-right: 10px;
    box-sizing: border-box;
 
 }
@@ -452,4 +418,65 @@ a {
    background-color: orange;
    border-color: green;
    border-width: 2px;
+}
+
+@media screen and (min-width: 451px) and (max-width: 1400px) {
+
+
+   .title h2 {
+      font-size: 2.25rem;
+      line-height: 3rem;
+   }
+
+
+   .description h2 {
+      font-size: 1.7rem;
+      line-height: 1.75rem;
+      padding: 5px;
+   }
+}
+
+
+
+@media screen and (min-width: 451px) and (max-width: 950px) {
+   .project-wrapper {
+      top: 20vh;
+   }
+
+   .title h3 {
+      font-size: 2rem;
+      line-height: 2rem;
+   }
+
+   .title h2 {
+      font-size: 1.5rem;
+      line-height: 2rem;
+   }
+
+
+   .description h2 {
+      font-size: 1.5rem;
+      line-height: 1.50rem;
+   }
+
+}
+
+@media screen and (max-width: 450px) {
+   .project-wrapper {
+      top: 20vh;
+      padding-bottom: 150px;
+   }
+
+   .image-row {
+      display: flex;
+      align-items: center;
+      padding-top: 100px;
+      height: 50vh;
+      height: 50svh;
+      height: 50dvh;
+      overflow-x: auto;
+
+      z-index: -1;
+      scrollbar-width: none;
+   }
 }
