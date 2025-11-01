@@ -1,7 +1,12 @@
+
+
+
+
+
 const sketchA = (p) => {
 
-  let lox;
-  let loy;
+  let lox = 0;
+  let loy = 0;
   const easing = .01;
 
   p.setup = () => {
@@ -11,9 +16,6 @@ const sketchA = (p) => {
     c.id('canvas1');
     c.style('z-index', '-1');
     c.position(0, 0);
-
-    lox = p.width/2;
-    loy = p
   };
 
   p.draw = () => {
@@ -31,3 +33,6 @@ const sketchA = (p) => {
 };
 
 new p5(sketchA);
+
+
+

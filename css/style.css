@@ -91,9 +91,9 @@ body.scroll-enabled {
 
 
 .navbar {
-   position: absolute;
-   bottom: 5vh;
-   right: 5vw;
+   position: fixed;
+   bottom: 2vh;
+   right: 1vw;
    display: flex;
    z-index: 1;
 }
@@ -346,7 +346,7 @@ a {
    /* height: 100vh; */
    /* height: 100vh;
    height: 100dvh; */
-   height: 80vh;
+   height: 70vh;
 
    overflow-x: auto;
 
