@@ -459,6 +459,18 @@ body::-webkit-scrollbar {
       line-height: 1.50rem;
    }
 
+   .info-container,
+   .info-cornertainer {
+      bottom: 0vh;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      max-height: 30vh;
+      z-index: 1;
+      align-items: start;
+   }
+
+
 }
 
 @media screen and (max-width: 450px) {
@@ -479,4 +491,17 @@ body::-webkit-scrollbar {
       z-index: -1;
       scrollbar-width: none;
    }
+
+   .info-container,
+   .info-cornertainer {
+      bottom: 0vh;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      max-height: 30vh;
+      z-index: 1;
+      align-items: start;
+   }
+
+
 }
