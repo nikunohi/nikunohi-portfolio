@@ -339,8 +339,8 @@ a {
 }
 
 .image-row img {
-   height: 100% !important;
-   width: auto !important;
+   height: 100%;
+   width: auto;
    flex: 0 0 auto;
    display: block;
    max-width: none !important;
@@ -495,4 +495,12 @@ body::-webkit-scrollbar {
    }
 
 
+   .image-row img {
+      height: 50%;
+      width: auto;
+      flex: 0 0 auto;
+      display: block;
+      max-width: none !important;
+
+   }
 }
