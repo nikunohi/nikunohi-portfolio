@@ -13,7 +13,7 @@ const sketchA = (p) => {
     c.position(0, 0);
 
     lox = p.width/2;
-    loy = p.height/2;
+    loy = p
   };
 
   p.draw = () => {

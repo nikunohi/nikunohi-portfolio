@@ -44,6 +44,11 @@ a {
    cursor: none;
 }
 
+body.scroll-enabled {
+   overflow-y: auto;
+   overflow-x: hidden;
+}
+
 #canvas-container {
    width: 80%;
    max-width: 800px;
@@ -175,7 +180,7 @@ a {
 @media screen and (max-width: 930px) {
    .navbar {
       left: 10vw;
-      bottom: 10vh;
+      bottom: 2vh;
    }
 
 
@@ -261,6 +266,7 @@ a {
    .project-wrapper {
       top: 20vh;
    }
+
    .title h3 {
       font-size: 2rem;
       line-height: 2rem;
@@ -386,7 +392,7 @@ a {
 .project-wrapper {
 
    position: relative;
-   display: flex; 
+   display: flex;
    flex-direction: row;
    gap: 70px;
    /* flex-direction: column; */
