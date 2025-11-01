@@ -170,11 +170,15 @@ a {
 
 }
 
-@media screen and (max-width: 880px) {
-  .navbar {
-left: 50vw;
-bottom: 10vh;
-  }
+
+
+@media screen and (max-width: 930px) {
+   .navbar {
+      left: 10vw;
+      bottom: 10vh;
+   }
+
+
 }
 
 .info-wrapper {
@@ -253,15 +257,26 @@ a {
 }
 
 
-@media screen and (min-width:511px) and (max-width: 880px) {
-  .title h3 {
-   font-size: 2rem;
-   line-height: 2rem;
-  }
-  .title h1 {
-   font-size: 2rem;
-   line-height: 3rem;
-  }
+@media screen and (min-width: 451px) and (max-width: 930px) {
+   .project-wrapper {
+      top: 20vh;
+   }
+   .title h3 {
+      font-size: 2rem;
+      line-height: 2rem;
+   }
+
+   .title h1 {
+      font-size: 2rem;
+      line-height: 3rem;
+   }
+}
+
+@media screen and (max-width: 450px) {
+   .project-wrapper {
+      top: 60vh;
+   }
+
 }
 
 .title h2,
@@ -363,17 +378,19 @@ a {
 
 
 .project-section {
-   display: flex;
-   flex-direction: row;
+   min-width: 100vw;
+   min-height: 100vh;
+
 }
 
 .project-wrapper {
 
    position: relative;
-   display: flex;
+   display: flex; 
+   flex-direction: row;
    gap: 70px;
    /* flex-direction: column; */
-   justify-content: center;
+   /* justify-content: center; */
    align-items: center;
    height: 75vh;
 
@@ -416,5 +433,3 @@ a {
    border-color: green;
    border-width: 2px;
 }
-
-
