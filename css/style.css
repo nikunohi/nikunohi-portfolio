@@ -41,9 +41,6 @@ canvas {
    cursor: none;
 }
 
-a {
-   cursor: none;
-}
 
 body.scroll-enabled {
    overflow-y: auto;
@@ -218,6 +215,7 @@ a {
    font-family: "futura-100", sans-serif;
    font-weight: 600;
    font-style: normal;
+   cursor: none;
 }
 
 .title,
@@ -331,7 +329,7 @@ a {
 
    /* height: 100vh; */
    height: 100svh;
-   min-height: 100dvh;
+   min-height: 100svh;
 
    overflow-x: auto;
 
