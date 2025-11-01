@@ -483,9 +483,9 @@ body::-webkit-scrollbar {
       display: flex;
       align-items: center;
       padding-top: 100px;
-      height: 50vh;
-      height: 50svh;
-      height: 50dvh;
+      height: 100vh;
+      height: 100svh;
+      height: 100dvh;
       overflow-x: auto;
 
       z-index: -1;
