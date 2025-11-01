@@ -9,6 +9,10 @@
     <meta name="keywords"
         content="nikunohi, nikunohii, graphic design, design, motion graphic, stickers, BAD design club">
     <link rel="stylesheet" href="../css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/upd2ipj.css">
+    <link rel="stylesheet" href="https://use.typekit.net/upd2ipj.css">
 </head>
 
 <body>
@@ -16,41 +20,112 @@
 
 
         <header>
-            <nav>
-                <ul><a href="../">home</a></ul>
-                <ul><a href="#">about</a></ul>
-                <ul> <a href="../assets/resume-2025.pdf" target="_blank">Resume PDF</a></ul>
+            <nav class="navbar">
+                <ul class="nav-list">
 
+                    <li><a class="nav-box-work" href="../work/">work</a></li>
+                    <li><a class="nav-box-play" href="../play/">play</a></li>
+                    <li><a class="nav-box" href="#">about</a></li>
+                    <li><a class="nav-box" href="../index.html">home</a></li>
+                </ul>
             </nav>
-        </header>
+            <section class="info-wrapper">
+                <div class="info-container">
+
+                    <div class="title">
+                        <h2>
+                            nikunohi.net
+                        </h2>
+                    </div>
+
+                    <!-- <div class="description">
+                        <h2>
+                            work
+                        </h2>
+                    </div> -->
+
+                    <div class="description">
+                        <p>
+                            design statement
+                        </p>
+                    </div>
+                </div>
+            </section>
 
 
-        <section>
-            <p>
-                As an artist and graphic and motion designer, I often find myself imagining how a static project I’m
-                working on would look if it were part of a larger motion sequence, or how a frame I come across would
-                look as an isolated still graphic.
-            </p>
-        </section>
-        <section>
-            <p>
-                How can I create action from a series of beautiful images flowing
-                through time?
-            </p>
-        </section>
-        <section>
-            <p>
-                Conversely, how can I convey the feeling of suspended time and action in a single frame?
-            </p>
-        </section>
-        <section>
-            <p>
-                Many of the compositions and shapes I choose today are made as striking as possible while preserving the
-                simplicity of the design. Dynamic angles, bold and erratic lines, and bright colors portray motion in a
-                frozen medium.
-            </p>
-        </section>
+
+            <section class="project-section">
+                <div class="project-wrapper">
+                    <div class="title">
+                        <h1>As an artist and graphic & motion designer,</h1>
+                        <p class="design-statement">I often find myself imagining how a static
+                            project I’m
+                            working on would look if it were part of a larger motion sequence, or how a frame I come
+                            across
+                            would
+                            look as an isolated still graphic. </p>
+
+
+
+                    </div>
+                    <div class="project-wrapper">
+                        <div class="title">
+                            <p class="design-statement">
+                                How can I create action from a series of beautiful images
+                                flowing
+                                through time? Conversely, how can I convey the feeling of suspended time and action in a
+                                single frame? Many of the compositions and shapes I choose today are made as striking as
+                                possible while preserving
+                                the
+                                simplicity of the design. Dynamic angles, bold and erratic lines, and bright colors
+                                portray
+                                motion
+                                in a
+                                frozen medium.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- <div class="project-wrapper">
+                        <div class="title">
+                            <p class="design-statement">
+                               my resume can be accessed here
+                            </p>
+                        </div>
+                    </div> -->
+            </section>
+            <!-- <section>
+                <p>
+                    As an artist and graphic and motion designer, I often find myself imagining how a static project I’m
+                    working on would look if it were part of a larger motion sequence, or how a frame I come across
+                    would
+                    look as an isolated still graphic.
+                </p>
+            </section>
+            <section>
+                <p>
+                    How can I create action from a series of beautiful images flowing
+                    through time?
+                </p>
+            </section>
+            <section>
+                <p>
+                    Conversely, how can I convey the feeling of suspended time and action in a single frame?
+                </p>
+            </section>
+            <section>
+                <p>
+                    Many of the compositions and shapes I choose today are made as striking as possible while preserving
+                    the
+                    simplicity of the design. Dynamic angles, bold and erratic lines, and bright colors portray motion
+                    in a
+                    frozen medium.
+                </p>
+            </section> -->
+            <div id="p5-container"></div>
+            <div id="p5-container2"></div>
     </main>
+    <script src="./js/sketch.js"></script>
+    <script src="./js/sketch2.js"></script>
 </body>
 
 </html>
