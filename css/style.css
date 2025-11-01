@@ -70,24 +70,6 @@ body.scroll-enabled {
 
 }
 
-/* #p5-container2 canvas {
-   pointer-events: none;
-   
-} */
-
-
-/* .bottom {
-   position: relative;
-   background-color: white;
-} */
-
-/* .navbar {
-   position: fixed;
-   bottom: 2vh;
-   right: 1vw;
-   z-index: 1;
-} */
-
 
 
 .navbar {
@@ -104,7 +86,6 @@ body.scroll-enabled {
    display: flex;
    flex-direction: row;
    list-style-type: none;
-   /* justify-content: space-around; */
 
 
 
@@ -340,10 +321,6 @@ a {
 .image-row {
    display: flex;
    align-items: center;
-
-   /* height: 100vh; */
-   /* height: 100vh;
-   height: 100dvh; */
    height: 70vh;
 
    overflow-x: auto;

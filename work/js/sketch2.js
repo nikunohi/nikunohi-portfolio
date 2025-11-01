@@ -1,34 +1,3 @@
-// let canvas2;
-// let lox2 = 0;
-// let loy2 = 0;
-// let easing2 = .01
-
-// function setup() {
-//     canvas2 = createCanvas(windowWidth, windowHeight);
-//     canvas2.parent('p5-container2');
-//     canvas2.position(0, 0);
-//     canvas2.style("z-index", -1);
-// }
-
-
-// function windowResized() {
-//   resizeCanvas(windowWidth, windowHeight);
-// }
-
-// function draw() {
-//   clear();
-
-
-//   lox2 = lox2 + ((mouseX - lox2) * easing2);
-//   loy2 = loy2 + ((mouseY - loy2) * easing2);
-//   rect(lox2-12.5, loy2-12.5, 100, 20, 50);
-// //   text("poster system", lox2, loy2);
-//   square(lox2, loy2, 15);
-
-
-
-
-// }
 
 
 const sketchB = (p) => {
