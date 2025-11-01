@@ -497,13 +497,4 @@ body::-webkit-scrollbar {
       align-items: start;
    }
 
-
-   .image-row img {
-      height: 50%;
-      width: auto;
-      flex: 0 0 auto;
-      display: block;
-      max-width: none !important;
-
-   }
 }
