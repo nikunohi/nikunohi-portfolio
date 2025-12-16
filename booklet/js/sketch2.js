@@ -12,8 +12,8 @@ const sketchB = (p) => {
         c.id('canvas2');
         c.style('z-index', '1');
         c.position(0, 0);
-        p.fill(225, 226, 2);
-        p.stroke(225, 226, 2);
+        p.fill(0, 0, 0);
+        p.stroke(0, 0, 0);
     };
 
     p.draw = () => {

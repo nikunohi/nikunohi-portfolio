@@ -12,8 +12,8 @@ const sketchB = (p) => {
         c.id('canvas2');
         c.style('z-index', '1');
         c.position(0, 0);
-        p.fill(225, 226, 2);
-        p.stroke(225, 226, 2);
+        p.fill(108, 161, 196);
+        p.stroke(108, 161, 196);
     };
 
     p.draw = () => {
@@ -21,15 +21,14 @@ const sketchB = (p) => {
         trail.push([p.mouseX, p.mouseY]);
 
         for (i = 5; i < trail.length; i += 3) {
-            let s = 53 * (i / trail.length);
+            let s = 30 * (i / trail.length);
             let x = trail[i][0];
             let y = trail[i][1];
-          
-            p.triangle(
-                x, y - s / 2,
-                x - s / 2, y + s / 2,
-                x + s / 2, y + s / 2
-            );
+
+            for (i = 5; i < trail.length; i += 3) {
+                let s = 30 * (i / trail.length);
+                p.circle(trail[i][0], trail[i][1], s);
+            }
         }
 
         if (trail.length > 20) {

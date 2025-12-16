@@ -21,7 +21,7 @@ const sketchB = (p) => {
         trail.push([p.mouseX, p.mouseY]);
 
         for (i = 5; i < trail.length; i += 3) {
-            let s = 53 * (i / trail.length);
+            let s = 30 * (i / trail.length);
             let x = trail[i][0];
             let y = trail[i][1];
           

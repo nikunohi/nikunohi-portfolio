@@ -26,7 +26,7 @@ const sketchB = (p) => {
         // loy += (p.mouseY - loy) * easing;
         // p.square(lox, loy, 15);
         for (i = 5; i < trail.length; i+=3) {
-            let s = 53 * (i / trail.length);
+            let s = 30 * (i / trail.length);
             p.circle(trail[i][0], trail[i][1], s);
         }
 
