@@ -34,6 +34,7 @@ body {
    /* font-size 1.6rem is now the same as 16px */
    line-height: 1.6;
    padding-bottom: 100px;
+ 
 }
 
 body,
@@ -48,6 +49,16 @@ body.scroll-enabled {
 }
 
 
+.paddedcon {}
+
+#scroll1 {
+   width: 100%;
+   height: 40vh;
+   background-color: rgba(255, 255, 255, 0);
+   overflow-x: scroll;
+   overflow-y: hidden;
+   white-space: nowrap;
+}
 
 #canvas-container {
    width: 80%;
@@ -70,6 +81,31 @@ body.scroll-enabled {
 
 }
 
+
+.scroll-container {
+   border-top: 1px solid black;
+   position: fixed;
+   bottom: 0;
+   z-index: 0;
+}
+
+.lightbox img {
+   max-height: 100%;
+   text-align: left;
+   width: auto;
+   flex: 0 0 auto;
+   max-width: none !important;
+}
+
+
+.text {
+   margin-left: auto;
+
+   margin-right: 0;
+   max-width: 80vw;
+   padding: 14vh 10px 0px 10px;
+   padding-bottom: 40vh;
+}
 
 
 .navbar {
@@ -172,15 +208,40 @@ body.scroll-enabled {
 
 
 .info-wrapper {
-   position: relative;
-   margin-top: 20px;
+   position: fixed;
+   height: 8vh;
+   margin-left: 5vw;
    display: flex;
    justify-content: space-between;
    width: 100vw;
    align-items: start;
    z-index: 2;
    border-bottom: 1px solid black;
-   background-color: white;
+   background-color:#9bff59;
+
+
+}
+
+.sidebar {
+   position: fixed;
+   margin-top: 8vh;
+   /* margin-bottom: 40vh; */
+
+   /* display: flex; */
+   width: 5vw;
+   /* height: 100vh; */
+   height: 52vh;
+   z-index: 0;
+   border-right: 1px solid black;
+   background-color: rgb(155, 255, 89);
+}
+
+.corner-box {
+   position: fixed;
+   width: 5vw;
+   height: 8vh;
+   z-index: 2;
+   background-color:  rgba(155, 255, 89, 50%);
 }
 
 
@@ -343,7 +404,7 @@ a {
 
 }
 
-.image-row::-webkit-scrollbar {
+.scroll-container::-webkit-scrollbar {
    display: none;
 }
 
