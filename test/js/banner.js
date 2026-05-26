@@ -1,5 +1,5 @@
 // Use root-relative paths when serving over a local HTTP server
-const aesthetnova = '/typefaces/aesthet-nova.otf';
+// const aesthetnova = '/typefaces/aesthet-nova.otf';
 const textFile = '/assets/textcontent.txt';
 
 let typeface;
@@ -20,7 +20,7 @@ const sketchC = (p) => {
         // load text file and create string array of lines
         // each line is an element in the array
 
-        typeface = p.loadFont(aesthetnova);
+        // typeface = p.loadFont(aesthetnova);
         p.loadStrings(textFile, processText);
     };
 
@@ -62,7 +62,7 @@ const sketchC = (p) => {
         for (let x = xLeft; x < p.width; x += namesWidth) {
             p.fill(col2);
             for (let i = 1; 1 <= totalRows; i += 2) {
-                p.textFont(typeface);
+                // p.textFont(typeface);
                 p.text("SEAN YAGI — GRAPHIC AND MOTION DESIGNER" + " ", x, rowHeight * i + 20);
             }
         }
