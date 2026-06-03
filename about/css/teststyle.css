@@ -143,8 +143,6 @@ body.scroll-enabled {
 .lightbox img {
    max-height: 100%;
    text-align: left;
-   padding-left: 150px;
-   padding-top: 20px;
    width: auto;
    flex: 0 0 auto;
    max-width: none !important;
@@ -164,7 +162,7 @@ body.scroll-enabled {
    font-family: "loos-wide", sans-serif;
    font-weight: 100;
    font-style: normal;
-   font-size: 5rem;
+   font-size: 2.25rem;
    line-height: 1.5;
 }
 

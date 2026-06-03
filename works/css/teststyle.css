@@ -102,7 +102,7 @@ body.scroll-enabled {
 
 #scroll1 {
    width: 100%;
-   height: 40vh;
+   height: 10vh;
    background-color: rgba(255, 255, 255, 100);
    overflow-x: scroll;
    overflow-y: hidden;
@@ -143,8 +143,6 @@ body.scroll-enabled {
 .lightbox img {
    max-height: 100%;
    text-align: left;
-   padding-left: 150px;
-   padding-top: 20px;
    width: auto;
    flex: 0 0 auto;
    max-width: none !important;
@@ -168,8 +166,8 @@ body.scroll-enabled {
    line-height: 1.5;
 }
 
-/* 
-.text h1 {
+
+/* .text h1 {
    font-family: "new-kansas", sans-serif;
    font-weight: 100;
    font-style: normal;
@@ -299,7 +297,7 @@ body.scroll-enabled {
    /* display: flex; */
    width: 5vw;
    /* height: 100vh; */
-   height: 52vh;
+   height: 92vh;
    z-index: 1;
    border-right: 1px solid black;
    background-color: rgb(155, 255, 89);
@@ -314,6 +312,39 @@ body.scroll-enabled {
 }
 
 
+.work-container {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   /* background-color: rgba(255, 255, 0, 100%); */
+   /* padding: 10px; */
+   padding-top: 10vh;
+   gap: 0px;
+   /* border: 1px solid black; */
+
+   max-width: 80vw;
+}
+
+.work-container div {
+   background-color: #f1f1f1;
+   /* padding: -50px; */
+   border:1px solid black;
+   border-right: 0px solid black;
+
+   /* padding: 10px; */
+   /* font-size: 30rem; */
+   text-align: center;
+}
+
+.work-container h1 {
+   font-size: 2rem;
+   line-height: 1.5;
+}
+
+
+.work-container img {
+   width: 100%;
+   height: auto;
+}
 
 .info-container,
 .info-cornertainer {
