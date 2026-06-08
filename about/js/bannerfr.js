@@ -54,7 +54,7 @@ const sketchD = (p) => {
 
         p.textSize(rowHeight);
 
-        let namesWidth = p.textWidth("ALL WORKS INCLUDING THIS SITE CREATED BY SEAN YAGI - GRAPHIC AND MOTION DESIGNER" + "     ");
+        let namesWidth = p.textWidth("PIPES COMING SOON!" + "     ");
 
         p.textAlign(p.LEFT, p.BOTTOM);
         for (let x = xLeft; x < p.width; x += namesWidth) {
@@ -62,7 +62,7 @@ const sketchD = (p) => {
             for (let i = 1; i <= totalRows; i += 2) {
                 p.textFont("goudybookletter1911");
                 for(let i = 0; i < p.text.length; i++) {
-                                    p.text("ALL WORKS INCLUDING THIS SITE  CREATED BY SEAN YAGI - GRAPHIC AND MOTION DESIGNER" + "     ", x, rowHeight * i + 20);
+                                    p.text("PIPES COMING SOON!" + "     ", x, rowHeight * i + 20);
 
                 }
             }

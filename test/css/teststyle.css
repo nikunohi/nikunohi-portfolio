@@ -144,6 +144,7 @@ body.scroll-enabled {
    max-height: 100%;
    text-align: left;
    padding-left: 150px;
+   /* border-right: 1px solid black; */
    padding-top: 20px;
    width: auto;
    flex: 0 0 auto;
