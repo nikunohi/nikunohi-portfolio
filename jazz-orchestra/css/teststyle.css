@@ -140,7 +140,7 @@ body.scroll-enabled {
    z-index: 3;
 }
 
-.lightbox img {
+.darkbox img {
    max-height: 100%;
    text-align: left;
    padding-left: 150px;
@@ -151,6 +151,37 @@ body.scroll-enabled {
    max-width: none !important;
 }
 
+
+.lightbox {
+   /** Default lightbox to hidden */
+   display: none;
+
+   /** Position and style */
+   position: fixed;
+   z-index: 999;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   top: 0;
+   left: 0;
+   background: rgba(0, 0, 0, 0.8);
+}
+
+.lightbox img {
+   /** Pad the lightbox image */
+   max-width: 95%;
+   max-height: 95%;
+   margin-top: 2%;
+
+}
+
+.lightbox:target {
+   /** Remove default browser outline */
+   outline: none;
+
+   /** Unhide lightbox **/
+   display: block;
+}
 
 .text {
    margin-left: auto;
@@ -287,7 +318,7 @@ body.scroll-enabled {
    align-items: start;
    z-index: 1;
    border-bottom: 1px solid black;
-   background-color: #9bff59;
+   background-color: rgb(111, 135, 255);
 
 
 }
@@ -303,7 +334,7 @@ body.scroll-enabled {
    height: 52vh;
    z-index: 1;
    border-right: 1px solid black;
-   background-color: rgb(155, 255, 89);
+   background-color: rgb(111, 135, 255);
 }
 
 .corner-box {
@@ -311,7 +342,7 @@ body.scroll-enabled {
    width: 5vw;
    height: 8vh;
    z-index: 1;
-   background-color: rgba(155, 255, 89, 100%);
+   background-color: rgb(111, 135, 255);
 }
 
 
@@ -616,7 +647,14 @@ body::-webkit-scrollbar {
       align-items: start;
    }
 
+   .lightbox img {
+      /** Pad the lightbox image */
+      max-width: 80vw;
+      max-height: 80vh;
+      padding: 0;
+      /* margin-top: 2%; */
 
+   }
 }
 
 @media screen and (max-width: 450px) {
@@ -634,6 +672,15 @@ body::-webkit-scrollbar {
       max-height: 30vh;
       z-index: 1;
       align-items: start;
+   }
+
+   .lightbox img {
+      /** Pad the lightbox image */
+      max-width: 80vw;
+      max-height: 80vh;
+      padding: 0;
+      /* margin-top: 2%; */
+
    }
 
 }

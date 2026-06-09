@@ -1,11 +1,7 @@
-
-
-
-
 const sketchA = (p) => {
 
-  let lox = 0;
-  let loy = 0;
+  let lox;
+  let loy;
   const easing = .01;
 
   p.setup = () => {
@@ -13,8 +9,11 @@ const sketchA = (p) => {
     const c = p.createCanvas(p.windowWidth, p.windowHeight);
     c.parent('p5-container');
     c.id('canvas1');
-    c.style('z-index', '2');
+    c.style('z-index', '-1');
     c.position(0, 0);
+
+    lox = p.width/2;
+    loy = p.height/2;
   };
 
   p.draw = () => {
@@ -32,6 +31,3 @@ const sketchA = (p) => {
 };
 
 new p5(sketchA);
-
-
-
