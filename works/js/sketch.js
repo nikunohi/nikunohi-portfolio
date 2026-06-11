@@ -21,8 +21,8 @@ const sketchA = (p) => {
     p.clear();
     lox += (p.mouseX - lox) * easing;
     loy += (p.mouseY - loy) * easing;
-    p.rect(lox - 12.5, loy - 12.5, 100, 18, 50);
-    p.text('poster-system', lox, loy);
+    p.rect(lox - 12.5, loy - 12.5, 57, 18, 50);
+    p.text('works', lox, loy);
   };
 
 

@@ -1,6 +1,5 @@
 
 
-
 const sketchB = (p) => {
 
     let lox = 0;
@@ -22,11 +21,9 @@ const sketchB = (p) => {
     p.draw = () => {
         p.clear();
         trail.push([p.mouseX, p.mouseY]);
-        // lox += (p.mouseX - lox) * easing;
-        // loy += (p.mouseY - loy) * easing;
-        // p.square(lox, loy, 15);
+
         for (i = 5; i < trail.length; i+=3) {
-            let s = 25 * (i / trail.length);
+            let s = 53 * (i / trail.length);
             p.square(trail[i][0], trail[i][1], s);
         }
 
