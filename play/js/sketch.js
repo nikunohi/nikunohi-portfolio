@@ -11,9 +11,10 @@ const sketchA = (p) => {
   p.setup = () => {
 
     const c = p.createCanvas(p.windowWidth, p.windowHeight);
+    p.frameRate(24);
     c.parent('p5-container');
     c.id('canvas1');
-    c.style('z-index', '-1');
+    c.style('z-index', '4');
     c.position(0, 0);
   };
 
@@ -21,8 +22,8 @@ const sketchA = (p) => {
     p.clear();
     lox += (p.mouseX - lox) * easing;
     loy += (p.mouseY - loy) * easing;
-    p.rect(lox - 12.5, loy - 12.5, 100, 18, 50);
-    p.text('poster-system', lox, loy);
+    p.rect(lox - 12.5, loy - 12.5, 48, 18, 50);
+    p.text('Play', lox, loy+1);
   };
 
 
