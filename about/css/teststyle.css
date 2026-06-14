@@ -143,6 +143,17 @@ body.scroll-enabled {
    line-height: 1.5;
 }
 
+.text h2 {
+   font-family: "loos-wide", sans-serif;
+   font-weight: 100;
+   font-style: normal;
+   font-size: 3.33rem;
+   line-height: 1.5;
+}
+
+
+
+
 
 /* 
 .text h1 {
@@ -309,7 +320,7 @@ body.scroll-enabled {
    margin-right: 12px; */
 
 
-   filter: drop-shadow(2px -2px black);
+   filter: drop-shadow(2px -2px 1px black);
 
 
 
@@ -618,6 +629,9 @@ body::-webkit-scrollbar {
       line-height: 2.4rem;
    }
 
+
+
+
    .title h2 {
       font-size: 1.5rem;
       line-height: 2rem;
@@ -635,16 +649,30 @@ body::-webkit-scrollbar {
 
    }
 
+   .text h1 {
+
+      font-size: 4rem;
+      line-height: 1.5;
+   }
+
+   .text h2 {
+      font-size: 3.2rem;
+      line-height: 1.5;
+   }
+
    .cell {
       grid-column: 1;
+      flex-direction: row-reverse;
    }
 
 
    .menu-button-2 {
       margin-left: -13px;
+      filter: drop-shadow(1px -1px 1px black);
+
    }
 
-   .menu-button-2:first-of-type {
+   .menu-button-2:last-of-type {
       margin-left: -2px;
    }
 
@@ -681,16 +709,30 @@ body::-webkit-scrollbar {
 
    }
 
+   .text h1 {
+
+      font-size: 2.8rem;
+      line-height: 1.5;
+   }
+
+   .text h2 {
+      font-size: 2.62rem;
+      line-height: 1.5;
+   }
+
    .cell {
       grid-column: 1;
+      flex-direction: row-reverse;
    }
 
 
    .menu-button-2 {
       margin-left: -13px;
+      filter: drop-shadow(1px -1px 1px black);
+
    }
 
-   .menu-button-2:first-of-type {
+   .menu-button-2:last-of-type {
       margin-left: -2px;
    }
 
