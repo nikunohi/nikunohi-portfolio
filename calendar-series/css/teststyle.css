@@ -501,7 +501,8 @@ body.scroll-enabled {
    margin: 0 0;
    /* padding: 30px; */
    max-width: 80vw;
-   /* overflow:visible; */
+   /* 
+   :visible; */
 }
 
 .test {

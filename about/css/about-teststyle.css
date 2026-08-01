@@ -73,15 +73,15 @@ body.scroll-enabled {
 
 #scroll1 {
    width: 100%;
-   height: 10vh;
-   background-color: rgb(31, 45, 110);
+   height: 35vh;
+   background-color: white;
    border-left: 2px solid;
    border-left-color: rgb(31, 45, 110);
 
    /* overflow-x: scroll;
    overflow-y: hidden; */
    white-space: nowrap;
-   margin-left: 5vw;
+   /* margin-left: 5vw; */
 }
 
 #canvas-container {
@@ -123,6 +123,9 @@ body.scroll-enabled {
    border-top: 2px solid black;
    align-items: center;
    /* flex-direction: column; */
+   z-index: 0;
+   background-color: white;
+   border-top: 2px solid black;
    justify-content: flex-end;
    /* align-items: center; */
 }
@@ -191,9 +194,14 @@ body.scroll-enabled {
    font-family: "loos-wide", sans-serif;
    font-weight: 100;
    font-style: normal;
-   font-size: 1.25rem;
-   line-height: 1.5;
+   font-size: 3.5rem;
+   line-height: 1.2;
+   padding-left: 9px;
+   padding-top: 4px;
 }
+
+
+
 
 .navbar {
    position: fixed;
@@ -441,10 +449,10 @@ a .menu-button {
 .work-container {
    display: grid;
    position: relative;
-   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-columns: 2fr 1fr;
    /* grid-auto-flow: column; */
    background-color: white;
-   max-height: 80vh;
+   height: 54vh;
    margin-top: 8vh;
 
 
@@ -490,21 +498,37 @@ a .menu-button {
    display: none;
 }
 
-.work-container div {
+.work-container div:first-child {
    /* background-color: #f1f1f1; */
    /* padding: -50px; */
    /* border:1px solid black; */
    border-right: 1px solid black;
-   border-bottom: 1px solid black;
+   /* border-bottom: 1px solid black; */
    /* padding: 10px; */
    /* font-size: 30rem; */
-   text-align: center;
-   z-index: 1;
+   text-align: left;
+
 
 
 
 
 }
+
+.work-container div:nth-child(2) {
+   /* background-color: #f1f1f1; */
+   /* padding: -50px; */
+   /* border:1px solid black; */
+   /* border-right: 1px solid black; */
+   /* border-bottom: 1px solid black; */
+   /* padding: 10px; */
+   /* font-size: 30rem; */
+   text-align: left;
+
+
+}
+
+
+
 
 .work-container>div {
    position: relative;
@@ -543,13 +567,24 @@ a .menu-button {
 } */
 
 .work-container h1 {
-   font-size: 3rem;
-   line-height: 1;
-   padding-bottom: 9px;
+   font-size: 5rem;
+   line-height: 1.35;
+   padding-left: 9px;
+
    padding-top: 4px;
 
 }
 
+
+.work-container h2 {
+   padding-top: 10px;
+   padding-right: 9px;
+
+}
+
+.tertiary-text h2{
+    padding-bottom: 145px;
+}
 
 .work-container img {
 

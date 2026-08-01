@@ -331,7 +331,7 @@ body.scroll-enabled {
 }
 
 .menu-button-2:hover {
-   background-color: #9ddfc6;
+   background-color: #b039ff;
 }
 
 .menu-button-2:first-of-type {
@@ -341,8 +341,7 @@ body.scroll-enabled {
 }
 
 .menu-button-2:first-of-type:hover {
-   /* background-color: #b039ff; */
-   background-color: #c49ddf;
+   background-color: #b039ff;
    /* border-left: 2px solid black; */
 
 }
