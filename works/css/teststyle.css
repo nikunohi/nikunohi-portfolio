@@ -170,102 +170,16 @@ body.scroll-enabled {
 
 
 .text h2 {
-   font-family: "loos-wide", sans-serif;
+   font-family: "goudybookletter1911";
    font-weight: 100;
    font-style: normal;
-   font-size: 1.25rem;
+   font-size: 1.5rem;
+   /* font-size: 1.35rem; */
    line-height: 1.5;
 }
 
 
-.nav-list {
 
-   display: flex;
-   flex-direction: row;
-   list-style-type: none;
-
-
-
-}
-
-.nav-box {
-   background-color: white;
-   color: black;
-   border-color: black;
-   border-style: solid;
-   border-width: 1px;
-   border-radius: 75%;
-   margin: 1px;
-   text-decoration: none;
-
-}
-
-.nav-box:hover {
-   /* color: green; */
-   background-color: orange;
-   /* border-color: green; */
-   border-width: 2px;
-   /* cursor: none; */
-}
-
-
-.nav-box-work {
-   background-color: lightblue;
-   color: black;
-   border-color: black;
-   border-style: solid;
-   border-width: 1px;
-   border-radius: 75%;
-   margin: 1px;
-   text-decoration: none;
-
-}
-
-.nav-box-work:hover {
-   /* color: green; */
-   background-color: orange;
-   /* border-color: green; */
-   border-width: 2px;
-   /* cursor: none; */
-}
-
-.nav-box-play {
-   background-color: lightgreen;
-   color: black;
-   border-color: black;
-   border-style: solid;
-   border-width: 1px;
-   border-radius: 75%;
-   margin: 1px;
-   text-decoration: none;
-
-}
-
-.nav-box-play:hover {
-   /* color: green; */
-   background-color: orange;
-   /* border-color: green; */
-   border-width: 2px;
-   /* cursor: none; */
-}
-
-
-.nav-list li {
-   /* padding: 15px */
-   margin: 10px;
-   text-align: center;
-
-
-}
-
-
-.nav-list a {
-   /* padding: 15px */
-   /* margin: 15px; */
-
-
-
-}
 
 
 
@@ -289,11 +203,11 @@ body.scroll-enabled {
    padding-bottom: 0px;
    padding-left: 5px;
    padding-right: 9px;
-   color: rgb(0, 0, 0);
+   color: rgb(39, 14, 65);
    /* border-top-left-radius: 10px;
    border-top-right-radius: 10px; */
 
-   border-right: 1px solid black;
+   border-right: 1px solid rgb(39, 14, 65);
    width: 100%;
 
 
@@ -309,14 +223,16 @@ body.scroll-enabled {
 }
 
 .menu-button-2:first-of-type {
-   background-color: #c49ddf;
+   background-color: #c3df9d;
    /* border-left: 2px solid black; */
 
 }
 
 .menu-button-2:first-of-type:hover {
    /* background-color: #b039ff; */
-   background-color: #c49ddf;
+   /* background-color: #c49ddf; */
+   background-color: #c3df9d;
+
    /* border-left: 2px solid black; */
 
 }
@@ -347,25 +263,6 @@ body.scroll-enabled {
 }
 
 
-.menu-button {
-
-   position: relative;
-   font-family: "goudybookletter1911";
-   font-weight: 400;
-   font-style: italic;
-   font-size: 3rem;
-   padding-top: 4px;
-   padding-bottom: 5px;
-   padding-left: 18px;
-   padding-right: 20px;
-   color: rgb(0, 0, 0);
-   border: 1px solid black;
-   border-radius: 10px;
-   top: -30px;
-   margin-right: 12px;
-   filter: drop-shadow(1.5px 0px black);
-   background-color: rgba(255, 255, 255, 1);
-}
 
 /* .scroll-container h2 {
    transform: rotate(5deg);
@@ -427,9 +324,9 @@ a .menu-button {
    padding-bottom: 0px;
    overflow-y: scroll;
    scroll-behavior: smooth;
-   border-top: 1px solid black;
-   border-left: 2px solid black;
-   border-bottom: 2px solid black;
+   border-top: 1px solid rgb(39, 14, 65);
+   border-left: 2px solid rgb(39, 14, 65);
+   border-bottom: 2px solid rgb(39, 14, 65);
 
 
 
@@ -449,8 +346,8 @@ a .menu-button {
    position: relative;
    top: 8dvh;
    margin-left: 5vw;
-   border-top: 2px solid black;
-   border-left: 2px solid black;
+   border-top: 2px solid rgb(39, 14, 65);
+   border-left: 2px solid rgb(39, 14, 65);
 
    grid-template-columns: 1fr 1fr 1fr;
 
@@ -468,8 +365,8 @@ a .menu-button {
    /* background-color: #f1f1f1; */
    /* padding: -50px; */
    /* border:1px solid black; */
-   border-right: 1px solid black;
-   border-bottom: 1px solid black;
+   border-right: 1px solid rgb(39, 14, 65);
+   border-bottom: 1px solid rgb(39, 14, 65);
    /* padding: 10px; */
    /* font-size: 30rem; */
    text-align: center;
@@ -521,6 +418,7 @@ a .menu-button {
    line-height: 1;
    padding-bottom: 9px;
    padding-top: 4px;
+   color: rgb(39, 14, 65);
 
 }
 
@@ -546,12 +444,16 @@ a .menu-button {
 } */
 
 .work-container .mainGrid:nth-child(odd):hover {
-   background-color: rgba(255, 250, 220, 0.25);
+   /* background-color: rgba(255, 250, 220, 0.25); */
+   background-color: rgb(241, 240, 236);
+
 }
 
 
 .work-container .mainGrid:nth-child(even):hover {
-   background-color: rgba(67, 149, 182, 0.1);
+   /* background-color: rgba(67, 149, 182, 0.1); */
+   background-color: rgb(250, 248, 246);
+
 }
 
 /* .work-container div:nth-child(1) {
@@ -604,6 +506,7 @@ flex-direction: column;
    padding-left: 8px;
    padding-right: 10px;
    text-align: left;
+   color: rgb(39, 14, 65);
    /* width: 100%; */
 
    /* position: absolute;
@@ -636,12 +539,12 @@ flex-direction: column;
    background-color: rgba(255, 255, 255, 1);
    width: fit-content;
    height: fit-content;
-   border-radius: 30px;
-   border: 1px solid black;
+   border-radius: 40px;
+   border: 1px solid rgb(39, 14, 65);
    padding-left: 9px;
    padding-right: 9px;
-   padding-top: 0px;
-   padding-bottom: 1px;
+   padding-top: 1px;
+   padding-bottom: 1.5px;
    margin-top: 4.5px;
    margin-bottom: 2px;
    /* position: absolute; */
@@ -670,6 +573,7 @@ flex-direction: column;
 
 .boxed h2:not(.pill) {
    padding-bottom: 3px;
+   color: rgb(39, 14, 65);
 }
 
 .boxed h2:last-child {
@@ -704,8 +608,8 @@ flex-direction: column;
 
 .mainGrid .hover-text .boxed {
    padding-bottom: 5px;
-   border-bottom: .5px solid black;
-   border-right: 1px solid black;
+   border-bottom: .5px solid rgb(39, 14, 65);
+   border-right: 1px solid rgb(39, 14, 65);
 
    border-bottom-right-radius: 20px;
 
@@ -751,10 +655,10 @@ flex-direction: column;
 
 .title,
 .description {
-   color: black;
+   color: rgb(39, 14, 65);
    max-width: 80vw;
    background-color: rgba(255, 255, 255, 20%);
-   outline: 1px solid black;
+   outline: 1px solid rgb(39, 14, 65);
    z-index: 1;
    padding: 1px 5px;
    box-sizing: border-box;
@@ -878,10 +782,10 @@ body::-webkit-scrollbar {
 
 
 .project-list {
-   color: black;
+   color: rgb(39, 14, 65);
    max-width: 80vw;
    background-color: rgba(255, 255, 255, 20%);
-   outline: 1px solid black;
+   outline: 1px solid rgb(39, 14, 65);
    z-index: 1;
    padding: 5px;
    margin-right: 10px;
@@ -891,7 +795,7 @@ body::-webkit-scrollbar {
 
 
 .project-list a {
-   color: black;
+   color: rgb(39, 14, 65);
 
 
 }
@@ -987,7 +891,7 @@ body::-webkit-scrollbar {
    }
 
    .work-container div:nth-last-child(n+2) {
-      border-bottom: 1px solid black;
+      border-bottom: 1px solid rgb(39, 14, 65);
 
    }
 
@@ -996,7 +900,7 @@ body::-webkit-scrollbar {
    }
 
    .mainGrid .hover-text .boxed {
-      border-bottom: 0px solid black;
+      border-bottom: 0px solid rgb(39, 14, 65);
       border-bottom-right-radius: 20px;
    }
 
@@ -1041,7 +945,7 @@ body::-webkit-scrollbar {
    }
 
    .work-container div:nth-last-child(n+2) {
-      border-bottom: 1px solid black;
+      border-bottom: 1px solid rgb(39, 14, 65);
       /* border-bottom-right-radius: 20px; */
    }
 
@@ -1050,7 +954,7 @@ body::-webkit-scrollbar {
    }
 
    .mainGrid .hover-text .boxed {
-      border-bottom: 0px solid black;
+      border-bottom: 0px solid rgb(39, 14, 65);
       border-bottom-right-radius: 20px;
    }
 
