@@ -859,7 +859,10 @@ body::-webkit-scrollbar {
 
 
 @media screen and (min-width: 451px) and (max-width: 1140px) {
-   
+   #p5-container {
+      display: none;
+   }
+
    .title h3 {
       font-size: 2rem;
       line-height: 2.4rem;
@@ -930,6 +933,10 @@ body::-webkit-scrollbar {
 }
 
 @media screen and (max-width: 450px) {
+   #p5-container {
+      display: none;
+   }
+
    .cell {
       grid-column: 1;
       flex-direction: row-reverse;

@@ -117,7 +117,7 @@ body.scroll-enabled {
    overflow-x: scroll;
    overflow-y: hidden;
    white-space: nowrap;
-   
+
 }
 
 
@@ -153,10 +153,12 @@ body.scroll-enabled {
 
 .lightbox img {
    /** Pad the lightbox image */
-   max-width: 95%;
-   max-height: 95%;
-   margin-top: 2%;
-
+   max-width: 55%;
+   /* max-height: 95%; */
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
 }
 
 .lightbox:target {
@@ -927,7 +929,9 @@ body::-webkit-scrollbar {
 
 
 @media screen and (min-width: 451px) and (max-width: 1140px) {
-
+   #p5-container {
+      display: none;
+   }
 
    .work-container div:first-child {
       border-right: none;
@@ -1042,6 +1046,9 @@ body::-webkit-scrollbar {
 }
 
 @media screen and (max-width: 450px) {
+   #p5-container {
+      display: none;
+   }
 
    .text h1 {
       font-size: 2.5rem;
@@ -1130,7 +1137,7 @@ body::-webkit-scrollbar {
       max-width: 50vw;
       max-height: 50dvh;
       padding: 0;
-      margin-top: 50%;
+      /* margin-top: 50%; */
 
    }
 
