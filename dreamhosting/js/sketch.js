@@ -7,6 +7,7 @@ const sketchA = (p) => {
   let lox = 0;
   let loy = 0;
   let goudy;
+  let windoww = p.windowWidth;
   const easing = .01;
 
 
@@ -33,7 +34,7 @@ const sketchA = (p) => {
     lox += (p.mouseX - lox) * easing;
     loy += (p.mouseY - loy) * easing;
     p.rect(lox - 8.5, loy - 12.5, 84.5, 20.5, 50);
-    p.text('Print-Series', lox, loy+2);
+    p.text('Print-Series', lox, loy + 2);
   };
 
 
@@ -43,6 +44,9 @@ const sketchA = (p) => {
 };
 
 new p5(sketchA);
+
+
+
 
 
 

@@ -859,6 +859,7 @@ body::-webkit-scrollbar {
 
 
 @media screen and (min-width: 451px) and (max-width: 1140px) {
+   
    .title h3 {
       font-size: 2rem;
       line-height: 2.4rem;

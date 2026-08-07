@@ -902,6 +902,8 @@ body::-webkit-scrollbar {
    border-width: 2px;
 }
 
+
+
 @media screen and (min-width: 1141px) and (max-width: 1400px) {
 
 
@@ -926,6 +928,9 @@ body::-webkit-scrollbar {
 
 @media screen and (min-width: 451px) and (max-width: 1140px) {
 
+   #p5-container {
+      display: none;
+   }
 
    .work-container div:first-child {
       border-right: none;
@@ -1040,6 +1045,9 @@ body::-webkit-scrollbar {
 }
 
 @media screen and (max-width: 450px) {
+   #p5-container {
+      display: none;
+   }
 
    .text h1 {
       font-size: 2.5rem;
