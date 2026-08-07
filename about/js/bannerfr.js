@@ -23,7 +23,7 @@ const sketchD = (p) => {
     p.setup = () => {
 
         d = p.createCanvas(p.windowWidth, p.windowHeight * .35);
-        d.parent('p5-container');
+        d.parent('p5-container2');
         d.id('canvas1');
         d.style('z-index', '5');
         d.style('position', 'fixed');
