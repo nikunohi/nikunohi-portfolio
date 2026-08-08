@@ -37,7 +37,7 @@ body {
    height: 100%;
    overflow-x: hidden;
    overflow-y: auto;
-   background-color: rgb(31, 45, 110);
+   background-color: rgb(42, 61, 28);
 
 
 }
@@ -113,7 +113,9 @@ body.scroll-enabled {
 #scroll1 {
    width: 100%;
    height: 35dvh;
-   background-color: rgb(250, 248, 246);
+   background-color: rgb(255, 255, 255);
+
+   /* background-color: rgb(250, 248, 246); */
    overflow-x: scroll;
    overflow-y: hidden;
    white-space: nowrap;
