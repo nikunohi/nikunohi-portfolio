@@ -505,12 +505,23 @@ a .menu-button {
 .work-container h1 {
    font-size: 2.5rem;
    line-height: 1.2;
-   padding-left: 9px;
+   padding-left: 19px;
+   padding-right: 19px;
+
    color: rgb(39, 14, 65);
-   padding-top: .6rem;
-   padding-bottom: 2rem;
+   padding-top: 1.1rem;
+   padding-bottom: .85rem;
    /* text-indent: 10px; */
 
+}
+
+.work-container h1:last-of-type {
+   padding-bottom: 2rem;
+}
+
+.quote {
+   margin-left: 1.5rem;
+   /* margin-right: 1.5rem; */
 }
 
 
@@ -1140,16 +1151,20 @@ body::-webkit-scrollbar {
    }
 
    .work-container h1 {
-      font-size: 2rem;
-      line-height: 1.25;
+      font-size: 1.65rem;
+      line-height: 1.35;
+      padding-bottom: 2px;
+
 
       /* text-indent: 10px; */
 
    }
 
    .work-container h2 {
-      font-size: 2rem;
+      font-size: 1.65rem;
+      line-height: 1.35;
    }
+
 
    .work-container div:nth-last-child(n+2) {
       border-bottom: 1px solid rgb(39, 14, 65);
@@ -1166,7 +1181,7 @@ body::-webkit-scrollbar {
    }
 
    .tertiary-text {
-      /* padding-bottom: 10px; */
+      padding-bottom: 3.5px;
       /* border-top: 1px solid rgb(39, 14, 65); */
 
    }

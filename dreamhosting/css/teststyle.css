@@ -388,7 +388,7 @@ a .menu-button {
    grid-template-columns: 2fr 1fr;
    /* grid-auto-flow: column; */
    background-color: rgb(247, 246, 242);
-   height: 35dvh;
+   height: 34.5dvh;
    margin-top: 8dvh;
 
 
@@ -505,13 +505,25 @@ a .menu-button {
 .work-container h1 {
    font-size: 2.5rem;
    line-height: 1.2;
-   padding-left: 9px;
+   padding-left: 19px;
+   padding-right: 19px;
+
    color: rgb(39, 14, 65);
-   padding-top: .6rem;
-   padding-bottom: 2rem;
+   padding-top: 1.1rem;
+   padding-bottom: .85rem;
    /* text-indent: 10px; */
 
 }
+
+.work-container h1:last-of-type {
+   padding-bottom: 2rem;
+}
+
+.quote {
+   margin-left: 1.5rem;
+   /* margin-right: 1.5rem; */
+}
+
 
 
 .work-container h2 {
@@ -1101,13 +1113,16 @@ body::-webkit-scrollbar {
    }
 
    .text h1 {
-      font-size: 2rem;
-      line-height: 1.25;
+      font-size: 1.65rem;
+      line-height: 1.35;
+
    }
 
    .text h2 {
-      font-size: 2rem;
+      font-size: 1.65rem;
+      line-height: 1.35;
    }
+
 
 
    .cell {
@@ -1142,6 +1157,15 @@ body::-webkit-scrollbar {
 
    }
 
+   .work-container h1 {
+      padding-bottom: 2px;
+   }
+
+   .quote {
+      margin-left: 0;
+      font-style: italic;
+   }
+
    .work-container div:nth-last-child(n+2) {
       border-bottom: 1px solid rgb(39, 14, 65);
       /* border-bottom-right-radius: 20px; */
@@ -1157,7 +1181,7 @@ body::-webkit-scrollbar {
    }
 
    .tertiary-text {
-      /* padding-bottom: 10px; */
+      padding-bottom: 3.5px;
       /* border-top: 1px solid rgb(39, 14, 65); */
 
    }
