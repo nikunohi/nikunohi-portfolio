@@ -96,13 +96,13 @@ body.scroll-enabled {
 }
 
 
+
 .scroll-container {
 
    border-top: 2px solid rgb(39, 14, 65);
    position: fixed;
    bottom: 0;
    z-index: 3;
-   /* filter: drop-shadow(1px -1px 1.25px rgba(0, 0, 0, .52)); */
 
 }
 
@@ -112,24 +112,27 @@ body.scroll-enabled {
 
 #scroll1 {
    width: 100%;
-   height: 35dvh;
+   height: 55dvh;
    background-color: rgb(255, 255, 255);
 
    /* background-color: rgb(250, 248, 246); */
    overflow-x: scroll;
    overflow-y: hidden;
    white-space: nowrap;
+
 }
 
-.darkbox img {
 
+
+.darkbox img {
    max-height: 100%;
    text-align: left;
-   padding-left: 75px;
-   padding-right: 75px;
+   padding-left: 1.1%;
+   padding-right: 1.1%;
 
    /* border-right: 1px solid black; */
-   padding-top: 20px;
+   padding-top: 2%;
+   padding-bottom: 2.5%;
    width: auto;
    flex: 0 0 auto;
    max-width: none !important;
@@ -153,13 +156,15 @@ body.scroll-enabled {
 
 .lightbox img {
    /** Pad the lightbox image */
-   max-width: 55%;
+   width: 45dvw;
 
+   /* max-height: 95%; */
    position: fixed;
    top: 50%;
    left: 50%;
+   padding: 0;
    transform: translate(-50%, -50%);
-
+   object-fit: cover;
 }
 
 .lightbox:target {
@@ -210,8 +215,8 @@ body.scroll-enabled {
 
 .work-container .jp {
    font-family: "mplus";
-   letter-spacing: -.2rem;
-   font-weight: 315;
+   letter-spacing: -15rem;
+   font-weight: 300;
    padding-top: 6px;
 }
 
@@ -228,9 +233,9 @@ body.scroll-enabled {
    font-weight: 100;
    font-style: normal;
    font-size: 2.5rem;
-   line-height: 1.2;
+   /* line-height: 25rem; */
    padding-left: 9px;
-   padding-top: 4px;
+   /* padding-top: 4px; */
 }
 
 
@@ -264,7 +269,7 @@ body.scroll-enabled {
 
    padding-top: 2px;
    padding-bottom: 0px;
-   padding-left: 5px;
+   padding-left: 7px;
    padding-right: 9px;
    color: rgb(39, 14, 65);
 
@@ -290,13 +295,13 @@ body.scroll-enabled {
    background-color: #9ddfc6;
 }
 
-.menu-button-2:nth-of-type(2) {
+.menu-button-2:first-of-type {
    background-color: #c3df9d;
    /* border-left: 2px solid black; */
 
 }
 
-.menu-button-2:nth-of-type(2):hover {
+.menu-button-2:first-of-type:hover {
    /* background-color: #b039ff; */
    /* background-color: #c49ddf; */
    background-color: #c3df9d;
@@ -383,7 +388,7 @@ a .menu-button {
    grid-template-columns: 2fr 1fr;
    /* grid-auto-flow: column; */
    background-color: rgb(247, 246, 242);
-   height: 55dvh;
+   height: 35dvh;
    margin-top: 8dvh;
 
 
@@ -498,31 +503,38 @@ a .menu-button {
 } */
 
 .work-container h1 {
-   font-size: 3.5rem;
-   line-height: 1.35;
+   font-size: 2.5rem;
+   line-height: 1.2;
    padding-left: 9px;
    color: rgb(39, 14, 65);
-   padding-top: 4px;
+   padding-top: .6rem;
+   padding-bottom: 2rem;
+   /* text-indent: 10px; */
 
 }
 
 
 .work-container h2 {
-   line-height: 1.1;
-   color: rgb(39, 14, 65);
-
-   padding-top: 10px;
+   line-height: 180%;
+   color: rgb(145, 137, 153);
+   /* background-color: rgb(255, 255, 255); */
+   padding-top: .35rem;
+   /* padding-top: 10px; */
    padding-right: 9px;
    /* background-color: red; */
+   border-bottom: 1px solid rgb(39, 14, 65);
 }
+
+
 
 .tertiary-box {
    /* background-color: blue; */
+   background-color: #e9eee2;
 
 }
 
 .tertiary-text {
-   padding-bottom: 20px;
+   /* padding-bottom: 7px; */
 }
 
 .tertiary-text:last-of-type {
@@ -907,10 +919,12 @@ body::-webkit-scrollbar {
    border-width: 2px;
 }
 
-
-
 @media screen and (min-width: 1141px) and (max-width: 1400px) {
 
+   .work-container div:nth-last-child(n+2) {
+      border-bottom: 1px solid rgb(39, 14, 65);
+      /* border-bottom-right-radius: 20px; */
+   }
 
    .title h2 {
       font-size: 2.25rem;
@@ -924,6 +938,19 @@ body::-webkit-scrollbar {
       padding: 5px;
    }
 
+   .tertiary-text {
+      /* padding-bottom: 7px; */
+
+      /* border-bottom: 1px solid rgb(39, 14, 65); */
+
+   }
+
+   .darkbox img {
+      padding-top: 2%;
+      padding-bottom: 2.5%;
+      padding-right: 1.5%;
+      padding-left: 1.5%;
+   }
 
 
 
@@ -932,13 +959,17 @@ body::-webkit-scrollbar {
 
 
 @media screen and (min-width: 451px) and (max-width: 1140px) {
-
    #p5-container {
       display: none;
    }
 
    .work-container div:first-child {
       border-right: none;
+   }
+
+   .work-container div:nth-last-child(n+2) {
+      border-bottom: 1px solid rgb(39, 14, 65);
+      /* border-bottom-right-radius: 20px; */
    }
 
 
@@ -1017,16 +1048,22 @@ body::-webkit-scrollbar {
    }
 
    .tertiary-text {
-      padding-bottom: 12px;
+      /* padding-bottom: 10px; */
+      /* border-top: 1px solid rgb(39, 14, 65); */
+
    }
 
    .tertiary-text:last-of-type {
-      padding-top: 12px;
-      padding-bottom: 12px;
-      border-top: 1px solid rgb(39, 14, 65);
+      /* padding-top: 12px;
+      padding-bottom: 12px; */
+      /* border-top: 1px solid rgb(39, 14, 65); */
 
    }
 
+   .work-container div:last-of-type {
+      /* order: -1; */
+      border-bottom: 1px solid rgb(39, 14, 65);
+   }
 
    .mainGrid .hover-text .boxed {
       border-bottom: 0px solid rgb(39, 14, 65);
@@ -1039,12 +1076,21 @@ body::-webkit-scrollbar {
 
    .lightbox img {
       /** Pad the lightbox image */
-      width: 70%;
-
+      /* max-width: 80vw; */
+      width: 70dvw;
       padding: 0;
-      margin-top: 10%;
+
+      /* margin-top: 2%; */
 
    }
+
+   .darkbox img {
+      padding-top: 4%;
+      padding-bottom: 4%;
+      padding-right: 1%;
+      padding-left: 4%;
+   }
+
 
 
 }
@@ -1055,11 +1101,12 @@ body::-webkit-scrollbar {
    }
 
    .text h1 {
-      font-size: 2.5rem;
+      font-size: 2rem;
+      line-height: 1.25;
    }
 
    .text h2 {
-      font-size: 2.2rem;
+      font-size: 2rem;
    }
 
 
@@ -1110,13 +1157,15 @@ body::-webkit-scrollbar {
    }
 
    .tertiary-text {
-      padding-bottom: 12px;
+      /* padding-bottom: 10px; */
+      /* border-top: 1px solid rgb(39, 14, 65); */
+
    }
 
    .tertiary-text:last-of-type {
-      padding-top: 12px;
-      padding-bottom: 12px;
-      border-top: 1px solid rgb(39, 14, 65);
+      /* padding-top: 12px;
+      padding-bottom: 12px; */
+      /* border-top: 1px solid rgb(39, 14, 65); */
 
    }
 
@@ -1138,11 +1187,19 @@ body::-webkit-scrollbar {
 
    .lightbox img {
       /** Pad the lightbox image */
-      width: 85%;
+      /* max-width: 1%; */
+      width: 98dvw;
 
       padding: 0;
-      /* margin-top: 90%; */
+      /* margin-top: 50%; */
 
+   }
+
+   .darkbox img {
+      padding-top: 6%;
+      padding-bottom: 6%;
+      padding-right: 5%;
+      padding-left: 5%;
    }
 
 
