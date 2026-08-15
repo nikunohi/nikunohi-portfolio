@@ -342,6 +342,7 @@ a .menu-button {
 
 }
 
+
 .top-menu {
    display: grid;
    position: relative;
@@ -430,8 +431,7 @@ a .menu-button {
    height: auto;
    object-fit: contain;
    object-position: center;
-   padding: 20px;
-
+   padding: 12px;
 
 }
 
@@ -448,7 +448,7 @@ a .menu-button {
    /* background-color: rgba(255, 250, 220, 0.25); */
    /* background-color: rgb(241, 240, 236); */
    background-color: white;
-   
+
 }
 
 
@@ -552,6 +552,7 @@ flex-direction: column;
    margin-bottom: 2px;
    /* position: absolute; */
    margin-left: 2.5px;
+   overflow: visible;
    top: 50;
 
    left: 0;
@@ -623,7 +624,13 @@ flex-direction: column;
 .mainGrid {
    position: relative;
    bottom: 0;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
+
+
 
 .mainGrid:hover>#secondaryGrid {
 
@@ -643,12 +650,16 @@ flex-direction: column;
    /* border: 1px solid black; */
    /* z-index: 1; */
 
-   max-width: 85%;
+   max-width: 95%;
    /* animation-name: test;
    animation-duration: .7s;
    animation-timing-function: steps(4, end); */
 
 }
+
+/* .mainGrid img {
+   padding: 10px;
+} */
 
 .flush {
    padding-top: 0%;
@@ -844,7 +855,7 @@ body::-webkit-scrollbar {
 
 
 
-@media screen and (min-width: 451px) and (max-width: 1140px) {
+@media screen and (min-width: 768px) and (max-width: 1140px) {
    #p5-container {
       display: none;
    }
@@ -893,32 +904,39 @@ body::-webkit-scrollbar {
 
    .work-container {
 
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
 
    }
 
-   .work-container div:nth-last-child(n+2) {
+   /* .work-container div:nth-last-child(n+2) {
       border-bottom: 1px solid rgb(39, 14, 65);
 
+   } */
+   .work-container h1 {
+      font-size: 2.5rem;
    }
 
    .work-container div:nth-last-child(1) {
       border-bottom: none;
    }
 
+   .text h2 {
+      font-size: 1.35rem;
+   }
+
    .mainGrid .hover-text .boxed {
-      border-bottom: 0px solid rgb(39, 14, 65);
+      border-bottom: 1px solid rgb(39, 14, 65);
       border-bottom-right-radius: 20px;
    }
 
-   .work-container div {
+   /* .work-container div {
       border-right: none;
-   }
+   } */
 
 
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 768px) {
    #p5-container {
       display: none;
    }

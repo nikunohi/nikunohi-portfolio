@@ -444,7 +444,7 @@ a .menu-button {
    height: auto;
    object-fit: contain;
    object-position: center;
-   padding: 20px;
+   padding: 12px;
 
 
 }
@@ -637,6 +637,10 @@ flex-direction: column;
 .mainGrid {
    position: relative;
    bottom: 0;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .mainGrid:hover>#secondaryGrid {
@@ -907,17 +911,25 @@ body::-webkit-scrollbar {
 
    .work-container {
 
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
 
    }
 
+   /* 
    .work-container div:nth-last-child(n+2) {
       border-bottom: 1px solid rgb(39, 14, 65);
 
+   } */
+   .work-container h1 {
+      font-size: 2.5rem;
    }
 
    .work-container div:nth-last-child(1) {
       border-bottom: none;
+   }
+
+   .text h2 {
+      font-size: 1.35rem;
    }
 
    .mainGrid .hover-text .boxed {
@@ -925,9 +937,9 @@ body::-webkit-scrollbar {
       border-bottom-right-radius: 20px;
    }
 
-   .work-container div {
+   /* .work-container div {
       border-right: none;
-   }
+   } */
 
 
 }

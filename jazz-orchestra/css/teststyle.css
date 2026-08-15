@@ -1154,8 +1154,25 @@ body::-webkit-scrollbar {
    }
 
    .work-container h1 {
+      font-size: 1.85rem;
+      line-height: 1.5;
       padding-bottom: 2px;
+
+
+      /* text-indent: 10px; */
+
    }
+
+
+
+
+
+
+   .work-container h2 {
+      font-size: 1.85rem;
+      line-height: 1.5;
+   }
+
 
    .quote {
       margin-left: 0;

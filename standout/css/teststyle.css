@@ -1109,13 +1109,18 @@ body::-webkit-scrollbar {
       display: none;
    }
 
+
    .text h1 {
-      font-size: 2.5rem;
+      font-size: 1.85rem;
+      line-height: 1.5;
+
    }
 
    .text h2 {
-      font-size: 2.2rem;
+      font-size: 1.85rem;
+      line-height: 1.5;
    }
+
 
 
    .cell {
@@ -1151,8 +1156,8 @@ body::-webkit-scrollbar {
    }
 
    .work-container h1 {
-      font-size: 1.65rem;
-      line-height: 1.35;
+      font-size: 1.85rem;
+      line-height: 1.5;
       padding-bottom: 2px;
 
 
@@ -1160,9 +1165,14 @@ body::-webkit-scrollbar {
 
    }
 
+
+
+
+
+
    .work-container h2 {
-      font-size: 1.65rem;
-      line-height: 1.35;
+      font-size: 1.85rem;
+      line-height: 1.5;
    }
 
 
