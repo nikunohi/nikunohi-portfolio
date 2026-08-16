@@ -510,7 +510,10 @@ a .menu-button {
    color: rgb(39, 14, 65);
    padding-top: 1.1rem;
    padding-bottom: .85rem;
+   text-justify: inter-word;
    /* text-indent: 10px; */
+   text-wrap: pretty;
+
 
 }
 

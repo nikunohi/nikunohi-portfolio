@@ -862,7 +862,7 @@ body::-webkit-scrollbar {
 
 
 
-@media screen and (min-width: 451px) and (max-width: 1140px) {
+@media screen and (min-width: 768px) and (max-width: 1140px) {
    #p5-container {
       display: none;
    }
@@ -933,7 +933,7 @@ body::-webkit-scrollbar {
    }
 
    .mainGrid .hover-text .boxed {
-      border-bottom: 0px solid rgb(39, 14, 65);
+      border-bottom: 1px solid rgb(39, 14, 65);
       border-bottom-right-radius: 20px;
    }
 
@@ -944,7 +944,7 @@ body::-webkit-scrollbar {
 
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 768px) {
    #p5-container {
       display: none;
    }

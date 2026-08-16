@@ -510,10 +510,12 @@ a .menu-button {
    padding-top: 1.1rem;
    padding-bottom: .85rem;
    /* text-indent: 10px; */
+   text-justify: inter-word;
+   text-wrap: pretty;
 
 }
 
-.work-container h1:last-of-type{
+.work-container h1:last-of-type {
    padding-bottom: 2rem;
 }
 
@@ -963,7 +965,7 @@ body::-webkit-scrollbar {
 
 
 
-@media screen and (min-width: 451px) and (max-width: 1140px) {
+@media screen and (min-width: 768px) and (max-width: 1140px) {
    #p5-container {
       display: none;
    }
@@ -1097,7 +1099,7 @@ body::-webkit-scrollbar {
 
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 768px) {
    #p5-container {
       display: none;
    }
