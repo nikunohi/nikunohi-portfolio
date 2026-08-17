@@ -99,7 +99,9 @@ body.scroll-enabled {
 
 .scroll-container {
 
-   border-top: 2px solid rgb(39, 14, 65);
+   border-top: 1px solid rgb(39, 14, 65);
+   background-color: rgb(255, 255, 255);
+
    position: fixed;
    bottom: 0;
    z-index: 3;
@@ -111,9 +113,10 @@ body.scroll-enabled {
 }
 
 #scroll1 {
+
    width: 100%;
    height: 55dvh;
-   background-color: rgb(255, 255, 255);
+
 
    /* background-color: rgb(250, 248, 246); */
    overflow-x: scroll;
