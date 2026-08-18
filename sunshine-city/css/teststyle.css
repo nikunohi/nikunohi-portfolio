@@ -130,13 +130,17 @@ body.scroll-enabled {
    padding-left: .65%;
    padding-right: .65%;
 
-   /* border-right: 1px solid black; */
+   /* border-left: 1px solid black; */
    padding-top: 1.5%;
    padding-bottom: 2%;
    width: auto;
    flex: 0 0 auto;
    max-width: none !important;
 }
+
+/* #first {
+   border-left: 
+} */
 
 
 .lightbox {
@@ -516,6 +520,8 @@ a .menu-button {
    text-wrap: pretty;
 
 }
+
+
 
 .work-container h1:last-of-type {
    padding-bottom: 2rem;

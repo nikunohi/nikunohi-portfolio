@@ -130,10 +130,10 @@ body.scroll-enabled {
 .darkbox img {
    max-height: 100%;
    text-align: left;
-   padding-left: .25%;
-   padding-right: .25%;
+   padding-left: 2.5%;
+   padding-right: 2.5%;
 
-   /* border-right: 1px solid black; */
+   border-right: 1px dashed rgb(138, 138, 138);
    padding-top: 1%;
    padding-bottom: 1.5%;
    width: auto;
@@ -160,6 +160,7 @@ body.scroll-enabled {
 .lightbox img {
    /** Pad the lightbox image */
    width: 35dvw;
+   border: none;
 
    /* max-height: 95%; */
    position: fixed;
@@ -963,8 +964,8 @@ body::-webkit-scrollbar {
    .darkbox img {
       padding-top: 2%;
       padding-bottom: 2.5%;
-      padding-right: 1%;
-      padding-left: 1%;
+      padding-right: 3%;
+      padding-left: 3%;
    }
 
 
@@ -1102,8 +1103,8 @@ body::-webkit-scrollbar {
    .darkbox img {
       padding-top: 4%;
       padding-bottom: 4.5%;
-      padding-right: .25%;
-      padding-left: .25%;
+      padding-right: 2.5%;
+      padding-left: 2.5%;
    }
 
 
@@ -1240,8 +1241,8 @@ body::-webkit-scrollbar {
    .darkbox img {
       padding-top: 5%;
       padding-bottom: 5.5%;
-      padding-right: .25%;
-      padding-left: .25%;
+      padding-right: 2.5%;
+      padding-left: 2.5%;
    }
 
 

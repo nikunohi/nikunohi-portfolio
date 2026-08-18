@@ -127,15 +127,24 @@ body.scroll-enabled {
 .darkbox img {
    max-height: 100%;
    text-align: left;
-   padding-left: 5%;
-   padding-right: 5%;
+   padding-left: 2.5%;
+   padding-right: 2.5%;
 
-   /* border-right: 1px solid black; */
+   border-right: 1px dashed rgb(138, 138, 138);
    /* padding-top: 1.5%;
    padding-bottom: 2%; */
    width: auto;
    flex: 0 0 auto;
    max-width: none !important;
+}
+
+#last {
+   border-right: none;
+}
+
+#bg {
+   border-right: none;
+   padding-left: none;
 }
 
 
@@ -162,6 +171,7 @@ body.scroll-enabled {
    position: fixed;
    top: 50%;
    left: 50%;
+   border: none;
    transform: translate(-50%, -50%);
    object-fit: cover;
 }

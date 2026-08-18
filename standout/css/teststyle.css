@@ -127,10 +127,10 @@ body.scroll-enabled {
 .darkbox img {
    max-height: 100%;
    text-align: left;
-   padding-left: .65%;
-   padding-right: .65%;
+   padding-left: 3%;
+   padding-right: 3%;
 
-   /* border-right: 1px solid black; */
+   border-right: 1px dashed black;
    padding-top: 1.5%;
    padding-bottom: 2%;
    width: auto;
@@ -138,6 +138,9 @@ body.scroll-enabled {
    max-width: none !important;
 }
 
+#last {
+   border-right: none;
+}
 
 .lightbox {
    /** Default lightbox to hidden */
@@ -159,6 +162,8 @@ body.scroll-enabled {
    width: 70dvw;
 
    /* max-height: 95%; */
+   border: none;
+
    position: fixed;
    top: 50%;
    left: 50%;
@@ -515,6 +520,15 @@ a .menu-button {
    text-justify: inter-word;
    text-wrap: pretty;
 
+}
+
+.work-container .headline {
+   padding-top: 1.1rem;
+   padding-bottom: .2rem;
+}
+
+.work-container .first-body {
+   padding-top: 0;
 }
 
 .work-container h1:last-of-type {
@@ -959,8 +973,8 @@ body::-webkit-scrollbar {
    .darkbox img {
       padding-top: 2.5%;
       padding-bottom: 3%;
-      padding-right: .85%;
-      padding-left: .85%;
+      padding-right: 3%;
+      padding-left: 3%;
    }
 
 
@@ -1098,8 +1112,8 @@ body::-webkit-scrollbar {
    .darkbox img {
       padding-top: 4%;
       padding-bottom: 4.5%;
-      padding-right: 1.75%;
-      padding-left: 1.75%;
+      padding-right: 3%;
+      padding-left: 3%;
    }
 
 

@@ -278,7 +278,7 @@ body.scroll-enabled {
    border-top-right-radius: 10px; */
 
    border-right: 1px solid rgb(39, 14, 65);
-   ;
+   
    width: 100%;
 
 
@@ -293,20 +293,17 @@ body.scroll-enabled {
    background-color: #9ddfc6;
 }
 
-.menu-button-2:first-of-type {
+.menu-button-2:last-of-type {
    background-color: #c3df9d;
-   /* border-left: 2px solid black; */
 
 }
 
-.menu-button-2:first-of-type:hover {
-   /* background-color: #b039ff; */
-   /* background-color: #c49ddf; */
+/* .menu-button-2:first-of-type:hover {
+   
    background-color: #c3df9d;
 
-   /* border-left: 2px solid black; */
 
-}
+} */
 
 .menu-button-2:last-of-type {
    border-right: none;

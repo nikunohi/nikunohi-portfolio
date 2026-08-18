@@ -127,16 +127,21 @@ body.scroll-enabled {
 .darkbox img {
    max-height: 100%;
    text-align: left;
-   padding-left: 1.25%;
-   padding-right: 1.25%;
-
-   /* border-right: 1px solid black; */
+   padding-left: 3%;
+   padding-right: 3%;
+   border-right: 1px dashed black;
    padding-top: 1.5%;
    padding-bottom: 2%;
    width: auto;
    flex: 0 0 auto;
    max-width: none !important;
 }
+
+
+#last {
+   border-right: none;
+}
+
 
 
 .lightbox {
@@ -157,6 +162,7 @@ body.scroll-enabled {
 .lightbox img {
    /** Pad the lightbox image */
    width: 40dvw;
+   border: none;  
    /* max-height: 95%; */
    position: fixed;
    top: 50%;
@@ -293,20 +299,18 @@ body.scroll-enabled {
    background-color: #9ddfc6;
 }
 
-.menu-button-2:first-of-type {
+.menu-button-2:nth-of-type(2) {
    background-color: #c3df9d;
    /* border-left: 2px solid black; */
 
 }
 
-.menu-button-2:first-of-type:hover {
-   /* background-color: #b039ff; */
-   /* background-color: #c49ddf; */
+/* .menu-button-2:first-of-type:hover {
+
    background-color: #c3df9d;
 
-   /* border-left: 2px solid black; */
 
-}
+} */
 
 .menu-button-2:last-of-type {
    border-right: none;
