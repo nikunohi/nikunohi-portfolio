@@ -104,7 +104,7 @@ body.scroll-enabled {
    position: fixed;
    bottom: 0;
    z-index: 3;
-   filter: drop-shadow(.2rem -.08rem .35rem rgb(62, 59, 67));
+   /* filter: drop-shadow(.2rem -.08rem .35rem rgb(62, 59, 67)); */
 
 }
 
@@ -450,14 +450,12 @@ a .menu-button {
    margin-left: 5vw;
    border-top: 2px solid rgb(39, 14, 65);
    border-left: 2px solid rgb(39, 14, 65);
+   filter: drop-shadow(1rem -1rem 1rem rgb(62, 59, 67));
 
    grid-template-columns: 1fr 1fr 1fr;
 
 }
 
-.text .work-container {
-   /* top: 8vh; */
-}
 
 .work-container::-webkit-scrollbar {
    display: none;

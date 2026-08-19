@@ -364,6 +364,7 @@ a .menu-button {
    margin-left: 5vw;
    border-top: 2px solid rgb(39, 14, 65);
    border-left: 2px solid rgb(39, 14, 65);
+   filter: drop-shadow(1rem -1rem 1rem rgb(62, 59, 67));
 
    grid-template-columns: 1fr 1fr 1fr;
 
