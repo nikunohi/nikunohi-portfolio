@@ -99,16 +99,17 @@ body.scroll-enabled {
 
 .scroll-container {
 
-   border-top: 2px solid rgb(39, 14, 65);
+   border-top: 1px solid rgb(39, 14, 65);
    position: fixed;
    bottom: 0;
    z-index: 3;
+   filter: drop-shadow(.2rem -.08rem .35rem rgb(62, 59, 67));
 
 }
 
-.scroll-container::-webkit-scrollbar {
+/* .scroll-container::-webkit-scrollbar {
    display: none;
-}
+} */
 
 #scroll1 {
    width: 100%;
@@ -162,7 +163,7 @@ body.scroll-enabled {
 .lightbox img {
    /** Pad the lightbox image */
    width: 40dvw;
-   border: none;  
+   border: none;
    /* max-height: 95%; */
    position: fixed;
    top: 50%;
@@ -238,10 +239,50 @@ body.scroll-enabled {
    font-style: normal;
    font-size: 2.5rem;
    /* line-height: 25rem; */
-   padding-left: 9px;
+
    /* padding-top: 4px; */
 }
 
+.tertiary-text {
+   border-bottom: 1px solid rgb(39, 14, 65);
+   padding-left: .9rem;
+   color: #605c65;
+   text-indent: 2.9rem hanging;
+
+}
+
+
+.tertiary-sub {
+
+   padding-left: .9rem;
+   border-bottom: 1px dashed rgb(145, 137, 153);
+   color: #605c65;
+   text-indent: 2.9rem hanging;
+
+}
+
+.quote {
+   padding-left: 1.9rem;
+   color: rgb(145, 137, 153);
+   text-indent: 2.9rem hanging;
+
+   border-bottom: 1px dashed rgb(145, 137, 153);
+
+   /* margin-right: 1.5rem; */
+}
+
+.quote-end {
+   color: rgb(145, 137, 153);
+   text-indent: 2.9rem hanging;
+
+   padding-left: 1.9rem;
+   border-bottom: 1px solid rgb(39, 14, 65);
+
+}
+
+.quote-body {
+   margin-left: 1.5rem;
+}
 
 .nav-list {
 
@@ -519,25 +560,39 @@ a .menu-button {
 
 }
 
+
+
 .work-container h1:last-of-type {
    padding-bottom: 2rem;
 }
 
-.quote {
-   margin-left: 1.5rem;
-   /* margin-right: 1.5rem; */
+
+.work-container .headline {
+   font-family: "mplus";
+   letter-spacing: -.3rem;
+   font-weight: 300;
+
+   padding-left: 1rem;
+   padding-top: 1.1rem;
+   padding-bottom: .725rem;
+   /* background-color: #b3baa9; */
 }
 
+.work-container .first-body {
+   padding-top: .5rem;
+   border-top: 1px dashed rgb(186, 175, 196);
+
+}
 
 .work-container h2 {
    line-height: 180%;
-   color: rgb(145, 137, 153);
+   /* color: rgb(145, 137, 153); */
    /* background-color: rgb(255, 255, 255); */
    padding-top: .35rem;
    /* padding-top: 10px; */
    padding-right: 9px;
    /* background-color: red; */
-   border-bottom: 1px solid rgb(39, 14, 65);
+   /* border-bottom: 1px solid rgb(39, 14, 65); */
 }
 
 .tertiary-box {
@@ -546,9 +601,6 @@ a .menu-button {
 
 }
 
-.tertiary-text {
-   /* padding-bottom: 7px; */
-}
 
 .tertiary-text:last-of-type {
    padding-bottom: 0px;
@@ -885,9 +937,9 @@ flex-direction: column;
 
 }
 
-.scroll-container::-webkit-scrollbar {
+/* .scroll-container::-webkit-scrollbar {
    display: none;
-}
+} */
 
 body::-webkit-scrollbar {
    display: none;
@@ -1156,7 +1208,7 @@ body::-webkit-scrollbar {
       padding-bottom: 2px;
    }
 
-   .quote {
+   .quote-body {
       margin-left: 0;
       font-style: italic;
    }
