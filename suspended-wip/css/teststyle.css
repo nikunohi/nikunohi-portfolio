@@ -420,7 +420,7 @@ a .menu-button {
    grid-template-columns: 2fr 1fr;
    /* grid-auto-flow: column; */
    background-color: rgb(247, 246, 242);
-   height: 35dvh;
+   height: 34.5dvh;
    margin-top: 8dvh;
 
 
