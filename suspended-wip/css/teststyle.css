@@ -128,16 +128,46 @@ body.scroll-enabled {
 .darkbox img {
    max-height: 100%;
    text-align: left;
-   padding-left: 1.25%;
-   padding-right: 1.25%;
 
-   /* border-right: 1px solid black; */
-   padding-top: 1.5%;
-   padding-bottom: 2%;
+
+
    width: auto;
    flex: 0 0 auto;
    max-width: none !important;
 }
+
+
+
+
+#last {
+   border-right: none;
+}
+
+#bg {
+   /* border-right: none; */
+   padding-left: none;
+}
+
+.thumbnail {
+   padding-top: 3%;
+   padding-bottom: 3%;
+   padding-left: 2.5%;
+   padding-right: 2.5%;
+   border-right: 1px dashed rgb(138, 138, 138);
+}
+
+.bg {
+   border-right: 1px dashed rgb(138, 138, 138);
+
+}
+
+.full-bleed {
+   border-right: 1px dashed rgb(138, 138, 138);
+   border-left: 1px dashed rgb(138, 138, 138);
+
+
+}
+
 
 
 .lightbox {
@@ -157,14 +187,18 @@ body.scroll-enabled {
 
 .lightbox img {
    /** Pad the lightbox image */
-   width: 40dvw;
+   width: 35dvw;
    /* max-height: 95%; */
+   padding-top: 1.5%;
+   padding-bottom: 1.5%;
    position: fixed;
    top: 50%;
    left: 50%;
+   border: none;
    transform: translate(-50%, -50%);
    object-fit: cover;
 }
+
 
 .lightbox:target {
    /** Remove default browser outline */
@@ -1000,12 +1034,14 @@ body::-webkit-scrollbar {
 
    }
 
-   .darkbox img {
-      padding-right: 1.5%;
-      padding-left: 3.5%;
+
+
+   .thumbnail {
+      padding-top: 4%;
+      padding-bottom: 4%;
+      padding-right: 5%;
+      padding-left: 5%;
    }
-
-
 
 }
 
@@ -1136,11 +1172,13 @@ body::-webkit-scrollbar {
 
    }
 
-   .darkbox img {
-      padding-right: 1%;
-      padding-left: 4%;
-   }
 
+   .thumbnail {
+      padding-top: 5%;
+      padding-bottom: 5%;
+      padding-right: 5%;
+      padding-left: 5%;
+   }
 
 
 }
@@ -1181,6 +1219,12 @@ body::-webkit-scrollbar {
    } */
 
 
+   .thumbnail {
+      padding-top: 6%;
+      padding-bottom: 6%;
+      padding-right: 5%;
+      padding-left: 5%;
+   }
 
 
    .menu-button {
@@ -1253,7 +1297,7 @@ body::-webkit-scrollbar {
 
    .lightbox img {
       /** Pad the lightbox image */
-      width: 90dvw;
+      width: 80dvw;
 
       padding: 0;
       object-fit: cover;
@@ -1261,10 +1305,6 @@ body::-webkit-scrollbar {
 
    }
 
-   .darkbox img {
-      padding-right: 5%;
-      padding-left: 5%;
-   }
 
 
    .work-container div {

@@ -131,12 +131,13 @@ body.scroll-enabled {
    text-align: left;
 
 
-   padding-top: 1.5%;
-   padding-bottom: 1.5%;
+
    width: auto;
    flex: 0 0 auto;
    max-width: none !important;
 }
+
+
 
 #last {
    border-right: none;
@@ -148,6 +149,8 @@ body.scroll-enabled {
 }
 
 .thumbnail {
+   padding-top: 1.5%;
+   padding-bottom: 1.5%;
    padding-left: 2.5%;
    padding-right: 2.5%;
    border-right: 1px dashed rgb(138, 138, 138);
@@ -155,6 +158,13 @@ body.scroll-enabled {
 
 .bg {
    border-right: 1px dashed rgb(138, 138, 138);
+
+}
+
+.full-bleed {
+   border-right: 1px dashed rgb(138, 138, 138);
+   border-left: 1px dashed rgb(138, 138, 138);
+
 
 }
 
@@ -176,8 +186,10 @@ body.scroll-enabled {
 
 .lightbox img {
    /** Pad the lightbox image */
-   width: 40dvw;
+   width: 35dvw;
    /* max-height: 95%; */
+   padding-top: 1.5%;
+   padding-bottom: 1.5%;
    position: fixed;
    top: 50%;
    left: 50%;
