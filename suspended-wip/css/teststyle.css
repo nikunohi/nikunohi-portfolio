@@ -1011,7 +1011,7 @@ body::-webkit-scrollbar {
 
 
 
-@media screen and (min-width: 451px) and (max-width: 1140px) {
+@media screen and (min-width: 768px) and (max-width: 1140px) {
    #p5-container {
       display: none;
    }
@@ -1145,7 +1145,7 @@ body::-webkit-scrollbar {
 
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 768px) {
    #p5-container {
       display: none;
    }
@@ -1153,12 +1153,14 @@ body::-webkit-scrollbar {
    .text h1 {
       font-size: 1.85rem;
       line-height: 1.5;
+      font-weight: 200;
 
    }
 
    .text h2 {
       font-size: 1.85rem;
       line-height: 1.5;
+      font-weight: 200;
    }
 
 
@@ -1196,6 +1198,8 @@ body::-webkit-scrollbar {
 
    .work-container h1 {
       padding-bottom: 2px;
+      color: rgb(96, 92, 101);
+
    }
 
    .quote {

@@ -554,7 +554,6 @@ a .menu-button {
    line-height: 1.2;
    padding-left: 19px;
    padding-right: 19px;
-
    color: rgb(39, 14, 65);
    padding-top: 1.1rem;
    padding-bottom: .85rem;
@@ -1167,12 +1166,15 @@ body::-webkit-scrollbar {
 
    .text h1 {
       font-size: 1.85rem;
+      font-weight: 200;
+
       line-height: 1.5;
 
    }
 
    .text h2 {
       font-size: 1.85rem;
+      font-weight: 200;
       line-height: 1.5;
    }
 
@@ -1214,6 +1216,8 @@ body::-webkit-scrollbar {
       font-size: 1.85rem;
       line-height: 1.5;
       padding-bottom: 2px;
+      color: rgb(96, 92, 101);
+
 
 
       /* text-indent: 10px; */

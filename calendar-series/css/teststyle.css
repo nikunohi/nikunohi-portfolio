@@ -1162,15 +1162,21 @@ body::-webkit-scrollbar {
       display: none;
    }
 
+   .work-container .headline{
+      font-weight: 200;
+   }
+
    .text h1 {
       font-size: 1.85rem;
       line-height: 1.5;
+      font-weight: 200;
 
    }
 
    .text h2 {
       font-size: 1.85rem;
       line-height: 1.5;
+      font-weight: 200;
    }
 
 
@@ -1208,7 +1214,15 @@ body::-webkit-scrollbar {
 
    .work-container h1 {
       padding-bottom: 2px;
+      color: rgb(96, 92, 101);
+
    }
+
+   .work-container .jp {
+      font-size: 2rem;
+      font-weight: 330;
+   }
+
 
    .quote-body {
       margin-left: 0;

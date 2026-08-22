@@ -1198,12 +1198,14 @@ body::-webkit-scrollbar {
    .text h1 {
       font-size: 1.85rem;
       line-height: 1.5;
+      font-weight: 200;
 
    }
 
    .text h2 {
       font-size: 1.85rem;
       line-height: 1.5;
+      font-weight: 200;
    }
 
 
@@ -1241,6 +1243,8 @@ body::-webkit-scrollbar {
 
    .work-container h1 {
       padding-bottom: 2px;
+      color: rgb(96, 92, 101);
+
    }
 
    .quote-body {
