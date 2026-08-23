@@ -55,7 +55,7 @@ const sketchD = (p) => {
 
         p.textSize(rowHeight);
 
-        let namesWidth = p.textWidth("You want to hire me reeeaaaaal bad..." + "     ");
+        let namesWidth = p.textWidth("...You want to hire me reeeaaaaal bad..." + "                     ");
 
         p.textAlign(p.LEFT, p.BOTTOM);
         for (let x = xLeft; x < p.width; x += namesWidth) {
@@ -63,7 +63,7 @@ const sketchD = (p) => {
             for (let i = 1; i <= totalRows; i += 2) {
                 p.textFont("hedvig");
                 for (let i = 0; i < p.text.length; i++) {
-                    p.text("You want to hire me reeeaaaaal bad..." + "     ", x, rowHeight * i);
+                    p.text("...You want to hire me reeeaaaaal bad..." + "                     ", x, rowHeight * i);
 
                 }
             }
