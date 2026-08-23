@@ -199,6 +199,19 @@ body.scroll-enabled {
    object-fit: cover;
 }
 
+.lightbox iframe {
+   /** Pad the lightbox image */
+   width: 45dvw;
+
+   /* max-height: 95%; */
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   padding: 0;
+   transform: translate(-50%, -50%);
+   object-fit: cover;
+}
+
 
 .lightbox:target {
    /** Remove default browser outline */
