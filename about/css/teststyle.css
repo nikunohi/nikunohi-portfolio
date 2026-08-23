@@ -17,6 +17,49 @@ https://www.paulirish.com/2012/box-sizing-border-box-ftw/
 }
 
 
+@font-face {
+   font-family: "hedvig";
+   src: url("../../typefaces/hedviglettersserif-14pt-regular.ttf") format("truetype");
+   font-weight: 400;
+   font-style: normal;
+   letter-spacing: -15rem;
+}
+
+
+@font-face {
+   font-family: "source";
+   src: url("../../typefaces/sourceserif4-variablefont_opsz\,wght.ttf") format("truetype");
+   font-weight: 450;
+   font-style: normal;
+   letter-spacing: -1px;
+}
+
+
+@font-face {
+   font-family: "yrsa";
+   src: url("../../typefaces/yrsa-variablefont_wght.ttf") format("truetype");
+   font-weight: 300;
+   font-style: normal;
+   letter-spacing: -1px;
+}
+
+@font-face {
+   font-family: "platypi";
+   src: url("../../typefaces/platypi-variablefont_wght.ttf") format("truetype");
+   font-weight: 300;
+   font-style: normal;
+   letter-spacing: -1px;
+}
+
+@font-face {
+   font-family: "martel";
+   src: url("../../typefaces/martel-extralight.ttf") format("truetype");
+   /* font-weight: 300; */
+   font-style: normal;
+   letter-spacing: -1px;
+}
+
+
 html {
    box-sizing: border-box;
    font-size: 62.5%;
@@ -114,7 +157,7 @@ body.scroll-enabled {
 
 #scroll1 {
    width: 100%;
-   height: 35dvh;
+   height: 20dvh;
    background-color: rgb(255, 255, 255);
 
    /* background-color: rgb(250, 248, 246); */
@@ -184,7 +227,7 @@ body.scroll-enabled {
    margin-right: 0;
    max-width: 95vw;
    /* padding: 0vh 10px 0px 10px; */
-   padding-bottom: 54.5dvh;
+   padding-bottom: 69.5dvh;
 }
 
 
@@ -417,7 +460,7 @@ a .menu-button {
    grid-template-columns: 2fr 1fr;
    /* grid-auto-flow: column; */
    background-color: rgb(247, 246, 242);
-   height: 54.5dvh;
+   height: 69.5dvh;
    margin-top: 8dvh;
 
 

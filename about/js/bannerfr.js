@@ -7,7 +7,7 @@ const sketchD = (p) => {
     let totalRows = 1;
     let xLeft;
     let xRight;
-    let scrollRate = 4;
+    let scrollRate = 6.7;
     let names;
 
     let col1, col2;
@@ -22,17 +22,18 @@ const sketchD = (p) => {
 
     p.setup = () => {
 
-        d = p.createCanvas(p.windowWidth, p.windowHeight * .35);
+        d = p.createCanvas(p.windowWidth, p.windowHeight * .2);
         d.parent('p5-container2');
         d.id('canvas1');
         d.style('z-index', '5');
         d.style('position', 'fixed');
-        d.style('bottom', '-1.5vh');
+        d.style('bottom', '-2.5dvh');
         d.style('left', '0');
+        
 
         xLeft = 0;
         xRight = p.width;
-        rowHeight = p.windowHeight * .35;
+        rowHeight = p.windowHeight * .2;
         // centerCanvas(d);
 
 
@@ -54,15 +55,15 @@ const sketchD = (p) => {
 
         p.textSize(rowHeight);
 
-        let namesWidth = p.textWidth("     " + "...PLEASE HIRE ME" + "     " + "You want to hire me REAAAL bad...");
+        let namesWidth = p.textWidth("You want to hire me reeeaaaaal bad..." + "     ");
 
         p.textAlign(p.LEFT, p.BOTTOM);
         for (let x = xLeft; x < p.width; x += namesWidth) {
             p.fill(col2);
             for (let i = 1; i <= totalRows; i += 2) {
-                p.textFont("goudybookletter1911");
-                for(let i = 0; i < p.text.length; i++) {
-                                    p.text("     " + "...PLEASE HIRE ME" + "     " + "You want to hire me REAAAL bad...", x, rowHeight * i + 20);
+                p.textFont("hedvig");
+                for (let i = 0; i < p.text.length; i++) {
+                    p.text("You want to hire me reeeaaaaal bad..." + "     ", x, rowHeight * i);
 
                 }
             }
@@ -76,8 +77,8 @@ const sketchD = (p) => {
 
     p.windowResized = () => {
         p.pixelDensity(window.devicePixelRatio);
-        p.resizeCanvas(p.windowWidth, p.windowHeight * .35);
-        rowHeight = p.windowHeight * .35;
+        p.resizeCanvas(p.windowWidth, p.windowHeight * .2);
+        rowHeight = p.windowHeight * .2;
         p.textSize(rowHeight);
 
     };

@@ -28,7 +28,7 @@ const sketchD = (p) => {
         d.style('z-index', '5');
 
         d.style('position', 'fixed');
-        d.style('bottom', '-6dvh');
+        d.style('bottom', '4dvh');
         d.style('left', '0');
 
         xLeft = 0;
