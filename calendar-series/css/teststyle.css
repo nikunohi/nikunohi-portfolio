@@ -128,19 +128,43 @@ body.scroll-enabled {
 .darkbox img {
    max-height: 100%;
    text-align: left;
-   padding-left: 3%;
-   padding-right: 3%;
-   border-right: 1px dashed black;
-   padding-top: 1.5%;
-   padding-bottom: 2%;
+
+
+
    width: auto;
    flex: 0 0 auto;
    max-width: none !important;
 }
 
 
+
 #last {
    border-right: none;
+}
+
+#bg {
+   /* border-right: none; */
+   padding-left: none;
+}
+
+.thumbnail {
+   padding-top: 1.5%;
+   padding-bottom: 1.5%;
+   padding-left: 2.5%;
+   padding-right: 2.5%;
+   border-right: 1px dashed rgb(138, 138, 138);
+}
+
+.bg {
+   border-right: 1px dashed rgb(138, 138, 138);
+
+}
+
+.full-bleed {
+   border-right: 1px dashed rgb(138, 138, 138);
+   border-left: 1px dashed rgb(138, 138, 138);
+
+
 }
 
 
@@ -162,8 +186,10 @@ body.scroll-enabled {
 
 .lightbox img {
    /** Pad the lightbox image */
-   width: 40dvw;
+   width: 35dvw;
    border: none;
+   padding-top: 1.5%;
+   padding-bottom: 1.5%;
    /* max-height: 95%; */
    position: fixed;
    top: 50%;
@@ -1012,9 +1038,9 @@ body::-webkit-scrollbar {
 
    }
 
-   .darkbox img {
-      padding-right: 1.5%;
-      padding-left: 1.5%;
+   .thumbnail {
+      padding-right: 5%;
+      padding-left: 5%;
    }
 
 
@@ -1148,11 +1174,11 @@ body::-webkit-scrollbar {
 
    }
 
-   .darkbox img {
-      padding-right: 2%;
-      padding-left: 2%;
-   }
 
+   .thumbnail {
+      padding-right: 5%;
+      padding-left: 5%;
+   }
 
 
 }
@@ -1162,7 +1188,7 @@ body::-webkit-scrollbar {
       display: none;
    }
 
-   .work-container .headline{
+   .work-container .headline {
       font-weight: 200;
    }
 
@@ -1282,15 +1308,17 @@ body::-webkit-scrollbar {
 
    }
 
-   .darkbox img {
-      padding-right: 3%;
-      padding-left: 3%;
-   }
 
+   .full-bleed {
+      max-height: 20%;
+   }
 
    .work-container div {
       border-right: 0px;
    }
 
-
+   .thumbnail {
+      padding-right: 5%;
+      padding-left: 5%;
+   }
 }
