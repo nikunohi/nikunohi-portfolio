@@ -1193,6 +1193,15 @@ body::-webkit-scrollbar {
       padding-left: 5%;
    }
 
+   .lightbox iframe {
+      /** Pad the lightbox image */
+      /* max-width: 80vw; */
+      width: 70dvw;
+      padding: 0;
+
+      /* margin-top: 2%; */
+
+   }
 
 }
 
@@ -1230,7 +1239,15 @@ body::-webkit-scrollbar {
    .menu-button-2:last-of-type {
       margin-left: -2px;
    } */
+   .lightbox iframe {
+      /** Pad the lightbox image */
+      /* max-width: 1%; */
+      width: 98dvw;
 
+      padding: 0;
+      /* margin-top: 50%; */
+
+   }
 
    .thumbnail {
       padding-top: 6%;
