@@ -7,7 +7,7 @@ const sketchD = (p) => {
     let totalRows = 1;
     let xLeft;
     let xRight;
-    let scrollRate = 6.7;
+    let scrollRate = 4.7;
     let names;
 
     let col1, col2;
@@ -55,7 +55,7 @@ const sketchD = (p) => {
 
         p.textSize(rowHeight);
 
-        let namesWidth = p.textWidth("...You want to hire me reeeaaaaal bad..." + "                     ");
+        let namesWidth = p.textWidth("....You want to hire me reeeeeeeeeeeeeeeeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaal bad......" + "                                                         ");
 
         p.textAlign(p.LEFT, p.BOTTOM);
         for (let x = xLeft; x < p.width; x += namesWidth) {
@@ -63,7 +63,7 @@ const sketchD = (p) => {
             for (let i = 1; i <= totalRows; i += 2) {
                 p.textFont("hedvig");
                 for (let i = 0; i < p.text.length; i++) {
-                    p.text("...You want to hire me reeeaaaaal bad..." + "                     ", x, rowHeight * i);
+                    p.text("....You want to hire me reeeeeeeeeeeeeeeeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaal bad......" + "                                                         ", x, rowHeight * i);
 
                 }
             }
