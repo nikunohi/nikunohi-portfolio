@@ -157,7 +157,7 @@ body.scroll-enabled {
 
 #scroll1 {
    width: 100%;
-   height: 20dvh;
+   height: 11dvh;
    background-color: rgb(255, 255, 255);
 
    /* background-color: rgb(250, 248, 246); */
@@ -227,7 +227,7 @@ body.scroll-enabled {
    margin-right: 0;
    max-width: 95vw;
    /* padding: 0vh 10px 0px 10px; */
-   padding-bottom: 69.5dvh;
+   padding-bottom: 78.5dvh;
 }
 
 
@@ -460,7 +460,7 @@ a .menu-button {
    grid-template-columns: 2fr 1fr;
    /* grid-auto-flow: column; */
    background-color: rgb(247, 246, 242);
-   height: 69.5dvh;
+   height: 78.5dvh;
    margin-top: 8dvh;
 
 

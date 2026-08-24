@@ -22,18 +22,18 @@ const sketchD = (p) => {
 
     p.setup = () => {
 
-        d = p.createCanvas(p.windowWidth, p.windowHeight * .2);
+        d = p.createCanvas(p.windowWidth, p.windowHeight * .1);
         d.parent('p5-container2');
         d.id('canvas1');
         d.style('z-index', '5');
         d.style('position', 'fixed');
-        d.style('bottom', '-2.5dvh');
+        d.style('bottom', '-1dvh');
         d.style('left', '0');
         
 
         xLeft = 0;
         xRight = p.width;
-        rowHeight = p.windowHeight * .2;
+        rowHeight = p.windowHeight * .1;
         // centerCanvas(d);
 
 
@@ -77,8 +77,8 @@ const sketchD = (p) => {
 
     p.windowResized = () => {
         p.pixelDensity(window.devicePixelRatio);
-        p.resizeCanvas(p.windowWidth, p.windowHeight * .2);
-        rowHeight = p.windowHeight * .2;
+        p.resizeCanvas(p.windowWidth, p.windowHeight * .1);
+        rowHeight = p.windowHeight * .1;
         p.textSize(rowHeight);
 
     };
