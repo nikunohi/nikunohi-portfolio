@@ -27,7 +27,7 @@ const sketchD = (p) => {
         d.id('canvas1');
         d.style('z-index', '5');
         d.style('position', 'fixed');
-        d.style('bottom', '-1dvh');
+        d.style('bottom', '-2dvh');
         d.style('left', '0');
         
 

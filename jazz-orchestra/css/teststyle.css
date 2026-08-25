@@ -160,7 +160,7 @@ body.scroll-enabled {
 
 .lightbox img {
    /** Pad the lightbox image */
-   width: 35dvw;
+   height: 70dvh;
    border: none;
 
    /* max-height: 95%; */
