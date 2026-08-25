@@ -126,16 +126,23 @@ body.scroll-enabled {
 }
 
 
+/* .darkbox {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+ */
 
 .darkbox img {
-   max-height: 100%;
-   text-align: left;
-   padding-left: 3%;
-   padding-right: 3%;
+   /* max-height: 100%; */
+   /* object-fit: cover; */
 
-   border-right: 1px dashed black;
-   padding-top: 1.5%;
-   padding-bottom: 2%;
+   text-align: left;
+   /* padding-left: 3%;
+   padding-right: 3%; */
+   height: 55dvh;
+   /* border-right: 1px dashed black; */
+   /* padding-top: 1.5%;
+   padding-bottom: 2%; */
    width: auto;
    flex: 0 0 auto;
    max-width: none !important;
@@ -144,6 +151,36 @@ body.scroll-enabled {
 /* #last {
    border-right: none;
 } */
+
+
+#last {
+   border-right: none;
+}
+
+#bg {
+   /* border-right: none; */
+   padding-left: none;
+}
+
+.thumbnail {
+   padding-top: 1.5%;
+   padding-bottom: 1.5%;
+   padding-left: 2.5%;
+   padding-right: 2.5%;
+   border-right: 1px dashed rgb(138, 138, 138);
+}
+
+.bg {
+   border-right: 1px dashed rgb(138, 138, 138);
+
+}
+
+.full-bleed {
+   border-right: 1px dashed rgb(138, 138, 138);
+   border-left: 1px dashed rgb(138, 138, 138);
+
+
+}
 
 .lightbox {
    /** Default lightbox to hidden */
@@ -158,11 +195,15 @@ body.scroll-enabled {
    top: 0;
    left: 0;
    background: rgba(0, 0, 0, 0.8);
+   object-fit: cover;
+
 }
 
 .lightbox img {
    /** Pad the lightbox image */
-   height: 70dvh;
+   width: 90dvw;
+   height: auto;
+
 
    /* max-height: 95%; */
    border: none;
@@ -1281,7 +1322,7 @@ body::-webkit-scrollbar {
    .lightbox img {
       /** Pad the lightbox image */
       /* max-width: 1%; */
-      width: 98dvw;
+      width: 90dvw;
 
       padding: 0;
       /* margin-top: 50%; */
