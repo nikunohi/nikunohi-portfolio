@@ -273,7 +273,7 @@ body.scroll-enabled {
 
 .tertiary-text {
    border-bottom: 1px solid rgb(39, 14, 65);
-   padding-left: .9rem;
+   padding-left: 1rem;
    color: #605c65;
    text-indent: 2.9rem hanging;
 
@@ -282,7 +282,7 @@ body.scroll-enabled {
 
 .tertiary-sub {
 
-   padding-left: .9rem;
+   padding-left: 1rem;
    border-bottom: 1px dashed rgb(145, 137, 153);
    color: #605c65;
    text-indent: 2.9rem hanging;
@@ -342,7 +342,7 @@ body.scroll-enabled {
 
    padding-top: 2px;
    padding-bottom: 0px;
-   padding-left: 5px;
+   padding-left: .8rem;
    padding-right: 9px;
    color: rgb(39, 14, 65);
 
@@ -608,7 +608,7 @@ a .menu-button {
 }
 
 .work-container .first-body {
-   padding-top: .5rem;
+   padding-top: .8rem;
    border-top: 1px dashed rgb(186, 175, 196);
 
 }
