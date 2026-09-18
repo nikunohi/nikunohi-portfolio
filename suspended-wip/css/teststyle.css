@@ -585,7 +585,7 @@ a .menu-button {
 
 .work-container h1 {
    font-size: 2.5rem;
-   line-height: 1.2;
+   line-height: 1.45;
    padding-left: 19px;
    padding-right: 19px;
 
@@ -598,6 +598,14 @@ a .menu-button {
 
 
 }
+
+
+
+.work-container a {
+   text-decoration: rgb(39, 14, 65) underline;
+   background-color: #9ddfc6;
+}
+
 
 .work-container .headline {
    padding-left: 1rem;
@@ -621,7 +629,7 @@ a .menu-button {
 
 
 .work-container h2 {
-   line-height: 180%;
+   line-height: 204.5%;
    /* color: rgb(145, 137, 153); */
    /* background-color: rgb(255, 255, 255); */
    padding-top: .35rem;
