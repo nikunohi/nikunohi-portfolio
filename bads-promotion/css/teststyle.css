@@ -421,6 +421,8 @@ body.scroll-enabled {
 
 
 
+
+
 /* .scroll-container h2 {
    transform: rotate(5deg);
    margin: 8px;
@@ -607,8 +609,20 @@ a .menu-button {
    text-decoration: rgb(39, 14, 65) underline;
    background-color: #9ddfc6;
 
+   animation: fade 1.6s steps(8, end);
    transition: background-color 1.6s;
    transition-timing-function: steps(8, end);
+}
+
+
+@keyframes fade {
+   0% {
+      background-color: rgba(0,0,0,0);
+   }
+
+   100% {
+      background-color: #9ddfc6;
+   }
 }
 
 .work-container a:hover {
