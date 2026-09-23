@@ -606,6 +606,16 @@ a .menu-button {
 .work-container a {
    text-decoration: rgb(39, 14, 65) underline;
    background-color: #9ddfc6;
+
+   transition: background-color 1.6s;
+   transition-timing-function: steps(8, end);
+}
+
+.work-container a:hover {
+   background-color: rgba(0,0,0,0);
+
+   transition: background-color .65s;
+   transition-timing-function: steps(4, end);
 }
 
 .work-container .headline {
