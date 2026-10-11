@@ -32,8 +32,11 @@ const sketchA = (p) => {
     p.clear();
     lox += (p.mouseX - lox) * easing;
     loy += (p.mouseY - loy) * easing;
-    p.rect(lox - 8.5, loy - 12.5, 92.5, 20.5, 50);
-    p.text('Poster-Series', lox, loy + 2);
+    p.push();
+    p.translate(lox, loy);
+    p.rect(-10, -12.5, 94.5, 20.5, 50);
+    p.text('Poster-Series', 0, 3);
+    p.pop();
   };
 
 
