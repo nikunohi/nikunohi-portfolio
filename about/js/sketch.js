@@ -19,7 +19,7 @@ const sketchA = (p) => {
     const c = p.createCanvas(p.windowWidth, p.windowHeight);
     p.frameRate(24);
 
-    p.textFont(goudybookletter1911);
+    p.textFont("goudybookletter1911");
     p.textSize(15);
     c.parent('p5-container');
     c.id('canvas1');
