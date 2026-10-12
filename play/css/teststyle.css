@@ -451,7 +451,10 @@ a .menu-button {
    padding-top: 2.4rem;
 }
 
-
+.sqr {
+   padding-top: 15%;
+   padding-bottom: 15%;
+}
 /* .work-container #mainGrid:nth-child(even):hover {
    background-color: rgba(255, 220, 253, 0.5);
 } */
