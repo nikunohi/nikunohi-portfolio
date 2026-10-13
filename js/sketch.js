@@ -20,6 +20,8 @@ const sketchA = (p) => {
 
   p.draw = () => {
     p.clear();
+    p.textFont("goudybookletter1911");
+
     lox += (p.mouseX - lox) * easing;
     loy += (p.mouseY - loy) * easing;
     p.rect(lox - 12.5, loy - 12.5, 55, 18, 50);

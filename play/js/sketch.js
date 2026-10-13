@@ -9,17 +9,17 @@ const sketchA = (p) => {
   let goudy;
   const easing = .01;
 
-  p.preload = () => {
-    goudy = p.loadFont('../../typefaces/goudybookletter1911.ttf');
+  // p.preload = () => {
+  //   goudy = p.loadFont('../../typefaces/goudybookletter1911.ttf');
 
-  };
+  // };
 
   p.setup = () => {
 
     const c = p.createCanvas(p.windowWidth, p.windowHeight);
     p.frameRate(24);
 
-    p.textFont(goudy);
+    // p.textFont(goudy);
     p.textSize(15);
     c.parent('p5-container');
     c.id('canvas1');
@@ -29,6 +29,8 @@ const sketchA = (p) => {
 
   p.draw = () => {
     p.clear();
+    p.textFont("goudybookletter1911");
+
     lox += (p.mouseX - lox) * easing;
     loy += (p.mouseY - loy) * easing;
     p.push();
