@@ -163,7 +163,7 @@ body.scroll-enabled {
 
 .full-bleed {
    border-right: 1px dashed rgb(138, 138, 138);
-   border-left: 1px dashed rgb(138, 138, 138);
+   /* border-left: 1px dashed rgb(138, 138, 138); */
 
 
 }
