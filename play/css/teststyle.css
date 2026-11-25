@@ -400,7 +400,7 @@ a .menu-button {
 
 
 /* change depending on how many works are in last row. if 2, set to 2. if 3, set to 3. */
-.work-container div:nth-last-child(-n) {
+.work-container div:nth-last-child(-n+1) {
    border-bottom: none;
 }
 
